@@ -12,22 +12,10 @@ mkdocs serve
 ```
 
 Then open <http://127.0.0.1:8000> in your browser.
+## Continuous Deployment
 
-## Building & Publishing
-
-To rebuild the site and commit the updated HTML:
-
-```bash
-mkdocs build
-touch site/.nojekyll
-git add site
-git commit -m "Update site"
-git push
-```
-
-### GitHub Pages Setup
-
-In your GitHub repository's **Settings > Pages**, set the source to the `main` branch's `/site` folder. Your site will then be available at:
+This site uses MkDocs Material and is automatically built and deployed to GitHub Pages via GitHub Actions whenever you push changes to the `main` branch.
+Simply commit and push your Markdown files to `main`, and your documentation will be live at:
 
 ```
 https://tom-mcmillan.github.io/research/
