@@ -1,0 +1,26 @@
+site_name: Research Notes
+site_url: https://tom-mcmillan.github.io/research/
+repo_url: https://github.com/tom-mcmillan/research
+repo_name: research
+
+theme:
+  name: material
+  palette:
+    scheme: default         # keeps the light/dark toggle
+    primary: blue
+    accent: blue
+
+nav:
+  - Home: index.md
+  - Philosophy: philosophy/  # include every .md under philosophy/
+  - Strategy: strategy/
+  - Technology: technology/
+
+plugins:
+  - search                  # built-in Material search
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+extra_css:
+  - css/custom.css
