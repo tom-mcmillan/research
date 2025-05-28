@@ -1,4 +1,5 @@
 mkdocs
 mkdocs-material
-mkdocs-awesome-pages-plugin
+git+https://github.com/lukasgeiter/mkdocs-gen-nav.git@main#egg=mkdocs-gen-nav
 mkdocs-mermaid2-plugin
+pymdown-extensions

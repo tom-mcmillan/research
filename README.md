@@ -4,7 +4,8 @@ This repository hosts my personal research writings. Markdown source files live 
 
 ## Setup
 
-Install dependencies (preferably in a virtual environment):
+Install dependencies (preferably in a virtual environment).
+Note: mkdocs-gen-nav is fetched directly from its GitHub repo to ensure compatibility:
 
 ```bash
 pip install -r requirements.txt

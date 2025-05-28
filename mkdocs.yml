@@ -12,11 +12,9 @@ theme:
 
 plugins:
   - search
-  - awesome-pages
+  - gen-nav
   - mermaid2
 markdown_extensions:
   - admonition
   - toc:
       permalink: true
-extra_css:
-  - css/custom.css
