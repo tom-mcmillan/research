@@ -24,7 +24,7 @@ Then open <http://127.0.0.1:8000> in your browser.
 
 This site uses MkDocs Material and is automatically built and deployed to GitHub Pages via GitHub Actions whenever you push changes to the `main` branch.
 
-> **First-time setup:** In your GitHub repository, go to **Settings → Pages**, select the **gh-pages** branch and the **/ (root)** folder as the source, then click **Save**. It may take a minute or two for the site to become available after your first deployment.
+> **No manual Pages setup is required**—the GitHub Actions workflow configures and publishes the site for you.
 
 Simply commit and push your Markdown files to `main`, and your documentation will be live at:
 
