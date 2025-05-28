@@ -2,12 +2,20 @@
 
 This repository hosts my personal research writings. Markdown source files live in the `docs/` folder. The site is built with [MkDocs](https://www.mkdocs.org/) and the [Material](https://squidfunk.github.io/mkdocs-material/) theme, and the static site is output to the `site/` folder.
 
+## Setup
+
+Install dependencies (preferably in a virtual environment):
+
+```bash
+pip install -r requirements.txt
+```
+
 ## Local Preview
 
 To run a local live-reloading preview server:
 
 ```bash
-pip install mkdocs-material
+pip install -r requirements.txt
 mkdocs serve
 ```
 

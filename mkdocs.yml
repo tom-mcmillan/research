@@ -10,14 +10,10 @@ theme:
     primary: blue
     accent: blue
 
-nav:
-  - Home: index.md
-  - Philosophy: philosophy/  # include every .md under philosophy/
-  - Strategy: strategy/
-  - Technology: technology/
-
 plugins:
-  - search                  # built-in Material search
+  - search
+  - awesome-pages
+  - mermaid2
 markdown_extensions:
   - admonition
   - toc:
