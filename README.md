@@ -4,19 +4,26 @@ This repository hosts my personal research writings. Markdown source files live 
 
 ## Setup
 
-Install dependencies (preferably in a virtual environment).
-Note: mkdocs-gen-nav is fetched directly from its GitHub repo to ensure compatibility:
+Create and activate a Python virtual environment (Python 3.11 or earlier):
+
+```bash
+python3.11 -m venv .venv
+source .venv/bin/activate
+```
+
+Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
+
+> **Note:** The `mkdocs-gen-nav` plugin currently supports up to Python 3.11. If you use Python 3.12 or newer, the plugin installation may fail.
 
 ## Local Preview
 
 To run a local live-reloading preview server:
 
 ```bash
-pip install -r requirements.txt
 mkdocs serve
 ```
 

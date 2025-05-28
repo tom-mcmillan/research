@@ -7,8 +7,14 @@ theme:
   name: material
   palette:
     scheme: default         # keeps the light/dark toggle
-    primary: blue
-    accent: blue
+  features:
+    - navigation.expand
+    - navigation.sections
+    - navigation.instant
+    - toc.integrate
+    - search.highlight
+    - search.suggest
+    - content.code.copy
 
 plugins:
   - search
@@ -18,3 +24,5 @@ markdown_extensions:
   - admonition
   - toc:
       permalink: true
+  - pymdownx.superfences
+  - pymdownx.highlight

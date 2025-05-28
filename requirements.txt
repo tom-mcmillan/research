@@ -1,5 +1,5 @@
-mkdocs
-mkdocs-material
-git+https://github.com/lukasgeiter/mkdocs-gen-nav.git@main#egg=mkdocs-gen-nav
-mkdocs-mermaid2-plugin
-pymdown-extensions
+mkdocs==1.4.2
+mkdocs-material==9.1.13
+mkdocs-mermaid2-plugin==0.2.2
+pymdown-extensions==9.10
+git+https://github.com/lukasgeiter/mkdocs-gen-nav.git@f3d2b7c#egg=mkdocs-gen-nav
