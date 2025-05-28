@@ -18,7 +18,7 @@ theme:
 
 plugins:
   - search
-  - gen-nav
+  - gen_nav
   - mermaid2
 markdown_extensions:
   - admonition
