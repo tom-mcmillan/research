@@ -2,4 +2,4 @@ mkdocs>=1.6.1
 mkdocs-material==9.1.13
 mkdocs-mermaid2-plugin==0.2.2
 pymdown-extensions==9.10
-mkdocs-gen-nav-plugin>=0.2
+git+https://github.com/lukasgeiter/mkdocs-gen-nav.git@main#egg=mkdocs-gen-nav
