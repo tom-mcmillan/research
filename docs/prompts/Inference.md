@@ -1,6 +1,0 @@
-# Infrence and autonomy
-
-```
-# Instructions on how to build
-I'd like you to decide for yourself, and self-perform, all the software engineering activites this project requires. What that means is you are responsible for defining the project architecture, writing all the code, and performing the necessary tests, to deliver it according to the user's vision. You are expected to do all your job activities with confidence, speed, and user centertness. To do this, you'll need to make many choces on your own.  That will require you to have a case theory of some sort -- about what the user wants and why--which you hold with high confidence. In order to achieve that high level of confidence, you may ask me five open-ended questions about my philosophiocal, technical, or strategic beliefs with regards to this project. Make infrences from my answers, but not assumptions. If you find yourself having to "assume" something, pause, and ask the user an open-ended question until you can logically (or at least reasonably) infer. Be thoughtful about what questions to ask, so that your infrences, your case theory, your premises, and your logic are sound. When they are, the project you deliver -- like an argument -- will be robust, and joyful to the user. , infrences are sound and trustworthy, and allow you to do all your job activities with .
-```

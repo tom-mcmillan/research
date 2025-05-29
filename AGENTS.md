@@ -36,8 +36,8 @@ research/
 ├── .venv/                    # Local virtual environment (ignored)
 ├── AGENTS.md                 # This configuration file
 ├── README.md                 # Setup and deployment docs
-├── mkdocs.yml                # Site config (uses mkdocs-material + gen-nav)
-├── requirements.txt          # Python deps (includes gen-nav from GitHub)
+├── mkdocs.yml                # Site config (uses mkdocs-material + awesome-nav)
+├── requirements.txt          # Python deps (includes awesome-nav from GitHub)
 └── docs/
     ├── index.md
     ├── philosophy/index.md
@@ -68,13 +68,13 @@ Codex must ensure the documentation site looks and behaves like:
   - Markdown-rendered content
   - Syntax-highlighted code blocks
   - Mermaid diagrams
-- Fully responsive and styled with default **Material for MkDocs (light theme)**
+- Fully responsive and styled with default **Material for MkDocs (light theme)** with a custom black header, typography overrides to match the OpenAI Agents documentation, and an open-source Inter font stack
 
 ### Required Features
 
 | Feature               | Status       |
 |-----------------------|--------------|
-| Sidebar navigation    | ✅ gen-nav   |
+| Sidebar navigation    | ✅ awesome-nav   |
 | Mermaid diagrams      | ✅ mermaid2  |
 | Code block copy       | ✅ enabled   |
 | Full-text search      | ✅ enabled   |
@@ -93,26 +93,31 @@ theme:
   name: material
   palette:
     scheme: default
+    primary: "#000000"
   features:
     - navigation.expand
-    - navigation.sections
     - navigation.instant
-    - toc.integrate
+    - toc.following
     - search.highlight
     - search.suggest
     - content.code.copy
 
 plugins:
   - search
-  - gen-nav
+  - awesome-nav
   - mermaid2
 
 markdown_extensions:
   - admonition
   - toc:
       permalink: true
+      title: "Table of Contents"
+      toc_depth: "2-3"
   - pymdownx.superfences
   - pymdownx.highlight
+
+extra_css:
+  - css/custom.css
 ```
 
 ---
@@ -131,11 +136,11 @@ markdown_extensions:
 
 | Step                        | Description                                                       |
 |-----------------------------|-------------------------------------------------------------------|
-| Switched to `gen-nav`       | Installed via GitHub; updated `requirements.txt` and `mkdocs.yml` |
-| Removed legacy CSS          | Deleted `docs/css/custom.css`; dropped `extra_css` from config    |
+| Switched to `awesome-nav`       | Installed via GitHub; updated `requirements.txt` and `mkdocs.yml` |
+| Added CSS overrides for header background, typography, and font stack | Created `docs/css/custom.css` & added `extra_css` to `mkdocs.yml` for header background, typography style, and open-source Inter font overrides |
 | Pruned tracked artifacts    | Removed `.DS_Store`, `site/`, and created proper `.gitignore`     |
 | Committed untracked files   | `AGENTS.md` + `docs/prompts/*.md` added to Git                    |
-| README updated              | Clarified use of GitHub-based gen-nav                             |
+| README updated              | Clarified use of GitHub-based awesome-nav                          |
 
 ### `.gitignore`
 
@@ -163,7 +168,7 @@ site/
 ```txt
 mkdocs
 mkdocs-material
-git+https://github.com/lukasgeiter/mkdocs-gen-nav.git@main#egg=mkdocs-gen-nav
+git+https://github.com/lukasgeiter/mkdocs-awesome-nav.git@main#egg=mkdocs-awesome-nav
 mkdocs-mermaid2-plugin
 pymdown-extensions
 ```
@@ -187,9 +192,9 @@ When Codex is used to continue or enhance this repo, it must:
 
 - Read and respect this `AGENTS.md`
 - Treat `docs/` structure as canonical
-- Avoid reintroducing plugins like `awesome-pages` or custom CSS
-- Use `gen-nav` exclusively for navigation
-- Make all styling decisions based on Material theme defaults
+- Avoid reintroducing plugins like `awesome-pages`; allow custom CSS only for header background, typography style, and open-source Inter font overrides
+- Use `awesome-nav` exclusively for navigation
+- Make all styling decisions based on Material theme defaults, except header background override via CSS
 - Keep PRs small and auditable (clear commit messages, minimal blast radius)
 
 ---
@@ -199,7 +204,7 @@ When Codex is used to continue or enhance this repo, it must:
 | Milestone                       | Status           |
 |--------------------------------|------------------|
 | GitHub Pages site live         | ✅ Completed      |
-| Navigation verified via gen-nav| ✅ Confirmed      |
+| Navigation verified via awesome-nav| ✅ Confirmed      |
 | Custom domain setup            | 🔜 Optional later |
 | Weekly content additions       | ⏳ In progress    |
 

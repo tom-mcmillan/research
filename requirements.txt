@@ -1,5 +1,5 @@
-mkdocs>=1.6.1
-mkdocs-material==9.1.13
-mkdocs-mermaid2-plugin==0.2.2
-pymdown-extensions==9.10
-mkdocs-gen-nav-plugin>=0.2
+mkdocs
+mkdocs-material
+git+https://github.com/lukasgeiter/mkdocs-awesome-nav.git@main#egg=mkdocs-awesome-nav
+mkdocs-mermaid2-plugin
+pymdown-extensions

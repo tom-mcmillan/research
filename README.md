@@ -16,8 +16,7 @@ Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
-
-> **Note:** The `mkdocs-gen-nav` plugin currently supports up to Python 3.11. If you use Python 3.12 or newer, the plugin installation may fail.
+> **Note:** This requirements file installs the `mkdocs-awesome-nav` plugin directly from its GitHub repository (`https://github.com/lukasgeiter/mkdocs-awesome-nav`) to ensure the latest navigation features.
 
 ## Local Preview
 
