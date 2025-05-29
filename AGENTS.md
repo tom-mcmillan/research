@@ -68,7 +68,8 @@ Codex must ensure the documentation site looks and behaves like:
   - Markdown-rendered content
   - Syntax-highlighted code blocks
   - Mermaid diagrams
-- Fully responsive and styled with default **Material for MkDocs (light theme)** with a custom black header, typography overrides to match the OpenAI Agents documentation, and an open-source Inter font stack
+  - Table of contents on the right side reflecting the page's sections (##, ###)
+  - Fully responsive and styled with default **Material for MkDocs (light theme)** with a custom black header, typography overrides to match the OpenAI Agents documentation, and an open-source Inter font stack
 
 ### Required Features
 
@@ -78,6 +79,7 @@ Codex must ensure the documentation site looks and behaves like:
 | Mermaid diagrams      | ✅ mermaid2  |
 | Code block copy       | ✅ enabled   |
 | Full-text search      | ✅ enabled   |
+| Page table of contents (right side) | ✅ toc.following |
 | Dark mode toggle      | ✅ available |
 | Responsive layout     | ✅ expected  |
 
@@ -138,6 +140,7 @@ extra_css:
 |-----------------------------|-------------------------------------------------------------------|
 | Switched to `awesome-nav`       | Installed via GitHub; updated `requirements.txt` and `mkdocs.yml` |
 | Added CSS overrides for header background, typography, and font stack | Created `docs/css/custom.css` & added `extra_css` to `mkdocs.yml` for header background, typography style, and open-source Inter font overrides |
+| Added docs/.nav.yml for primary nav ordering | Created `docs/.nav.yml` to pin Intro first and wildcard-include the rest via awesome-nav |
 | Pruned tracked artifacts    | Removed `.DS_Store`, `site/`, and created proper `.gitignore`     |
 | Committed untracked files   | `AGENTS.md` + `docs/prompts/*.md` added to Git                    |
 | README updated              | Clarified use of GitHub-based awesome-nav                          |
@@ -194,6 +197,8 @@ When Codex is used to continue or enhance this repo, it must:
 - Treat `docs/` structure as canonical
 - Avoid reintroducing plugins like `awesome-pages`; allow custom CSS only for header background, typography style, and open-source Inter font overrides
 - Use `awesome-nav` exclusively for navigation
+- Use Material theme's built-in `toc.following` feature for page table of contents (right sidebar)
+- Control primary sidebar ordering via a `docs/.nav.yml` file: list `Intro` first, then `*` to include all other pages automatically
 - Make all styling decisions based on Material theme defaults, except header background override via CSS
 - Keep PRs small and auditable (clear commit messages, minimal blast radius)
 

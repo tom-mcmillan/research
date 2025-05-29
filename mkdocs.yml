@@ -12,7 +12,7 @@ theme:
     - navigation.expand
     - navigation.sections
     - navigation.instant
-    - toc.integrate
+    - toc.following
     - search.highlight
     - search.suggest
     - content.code.copy
@@ -28,5 +28,7 @@ markdown_extensions:
   - admonition
   - toc:
       permalink: true
+      title: "Table of Contents"
+      toc_depth: "2-3"
   - pymdownx.superfences
   - pymdownx.highlight

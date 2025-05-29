@@ -55,4 +55,8 @@ body {
 .md-content a:hover { text-decoration: underline; }
 .md-content .md-code__content { border-radius: 8px; }
 .md-clipboard.md-icon { color: #9e9e9e; }
-.md-sidebar__scrollwrap { scrollbar-color: auto !important; }
+.md-sidebar__scrollwrap {
+  overflow-y: auto !important;
+  scrollbar-gutter: auto !important;
+  scrollbar-color: auto !important;
+}
