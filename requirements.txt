@@ -1,5 +1,7 @@
+<<<<<<< HEAD
 mkdocs
 mkdocs-material
 git+https://github.com/lukasgeiter/mkdocs-awesome-nav.git@main#egg=mkdocs-awesome-nav
 mkdocs-mermaid2-plugin
 pymdown-extensions
+=======
