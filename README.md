@@ -29,12 +29,14 @@ mkdocs serve
 ```
 
 Then open <http://127.0.0.1:8000> in your browser.
-## Continuous Deployment
-This site uses MkDocs Material and is automatically built and deployed to GitHub Pages via GitHub Actions whenever you push changes to the `main` branch.
 
-> **No manual Pages setup is required**—the GitHub Actions workflow defined in `.github/workflows/pages.yml` configures and publishes the site for you.
->
-> You can monitor build and deployment status via the badge at the top of this README or by visiting the [Actions tab](https://github.com/tom-mcmillan/research/actions).
+## Continuous Deployment
+Changes pushed to `main` automatically trigger the [pages.yml](.github/workflows/pages.yml)
+workflow. It installs dependencies, builds the site with MkDocs, and publishes
+the output to GitHub Pages using the official actions.
+
+You can monitor build and deployment status via the badge at the top of this README
+or by visiting the [Actions tab](https://github.com/tom-mcmillan/research/actions).
 
 Simply commit and push your Markdown files to `main`, and your documentation will be live at:
 
