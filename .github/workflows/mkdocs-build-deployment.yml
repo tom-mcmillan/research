@@ -1,4 +1,4 @@
-name: Build & Deploy MkDocs
+name: mkdocs build and deployment
 permissions:
   contents: write
 
