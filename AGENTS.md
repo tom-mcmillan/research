@@ -141,7 +141,7 @@ extra_css:
 | Switched to `awesome-nav`       | Installed via GitHub; updated `requirements.txt` and `mkdocs.yml` |
 | Added CSS overrides for header background, typography, and font stack | Created `docs/css/custom.css` & added `extra_css` to `mkdocs.yml` for header background, typography style, and open-source Inter font overrides |
 | Added docs/.nav.yml for primary nav ordering | Created `docs/.nav.yml` to pin Intro first and wildcard-include the rest via awesome-nav |
-| Adopted Deploy MkDocs Pages workflow | Added `.github/workflows/deploy.yml` and removed previous docs/deploy and pages workflows |
+| Adopted pages build & deployment workflow | Added `.github/workflows/pages.yml` and removed the old `.github/workflows/deploy.yml` |
 | Pruned tracked artifacts    | Removed `.DS_Store`, `site/`, and created proper `.gitignore`     |
 | Committed untracked files   | `AGENTS.md` + `docs/prompts/*.md` added to Git                    |
 | README updated              | Clarified use of GitHub-based awesome-nav                          |
@@ -199,7 +199,7 @@ When Codex is used to continue or enhance this repo, it must:
 - Avoid reintroducing plugins like `awesome-pages`; allow custom CSS only for header background, typography style, and open-source Inter font overrides
 - Use `awesome-nav` exclusively for navigation
 - Use Material theme's built-in `toc.following` feature for page table of contents (right sidebar)
-- Use the GitHub Actions workflow defined in `.github/workflows/deploy.yml` to deploy the site via `mkdocs gh-deploy --clean --force`
+- Use the GitHub Actions workflow defined in `.github/workflows/pages.yml` to build and deploy the site via the official Pages actions (mkdocs build, upload/download-pages-artifact, configure-pages, deploy-pages)
 - Control primary sidebar ordering via a `docs/.nav.yml` file: list `Intro` first, then `*` to include all other pages automatically
 - Monitor the GitHub Actions workflow runs and report any failures via https://github.com/tom-mcmillan/research/actions
 - Make all styling decisions based on Material theme defaults, except header background override via CSS
