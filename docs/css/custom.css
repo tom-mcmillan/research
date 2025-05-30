@@ -9,8 +9,6 @@
 .md-nav__link--section,
 .md-nav__item--nested > label                 { pointer-events: none; cursor: default; }
 
-/* section headers: bold + black */
-.md-nav__link--section                        { color: #000 !important; font-weight: 700; }
 
 /* reset Material’s indent (margin + padding + custom prop) */
 .md-nav__link,
@@ -20,6 +18,22 @@
   padding-inline-start: 0 !important;
 }
 .md-nav__item                                 { --md-indent: 0 !important; }
+
+/* Force everything in the nav to start at the same left edge */
+.md-nav__title,
+.md-nav__list,
+.md-nav__item,
+.md-nav__link {
+  margin-inline-start: 0 !important;
+  padding-inline-start: 0 !important;
+}
+
+.md-nav__item--nested > label.md-nav__link,
+.md-nav__item--nested > nav > label.md-nav__title {
+  color: #000 !important;
+  font-weight: 700 !important;
+}
+
 
 /* ────────────────── BRANDING & TYPOGRAPHY ────────── */
 
