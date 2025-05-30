@@ -1,4 +1,4 @@
-site_name: Research
+site_name: Research Notes
 site_url: https://tom-mcmillan.github.io/research/
 repo_url: https://github.com/tom-mcmillan/research
 repo_name: research
@@ -10,15 +10,12 @@ theme:
     primary: "#000000"
   features:
     - navigation.expand
-    - navigation.sections
     - navigation.instant
     - toc.following
     - search.highlight
     - search.suggest
     - content.code.copy
 
-extra_css:
-  - css/custom.css
 
 plugins:
   - search
@@ -32,3 +29,6 @@ markdown_extensions:
       toc_depth: "2-3"
   - pymdownx.superfences
   - pymdownx.highlight
+
+extra_css:
+  - css/custom.css

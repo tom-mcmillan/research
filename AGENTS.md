@@ -204,6 +204,7 @@ When Codex is used to continue or enhance this repo, it must:
 - Monitor the GitHub Actions workflow runs and report any failures via https://github.com/tom-mcmillan/research/actions
 - Make all styling decisions based on Material theme defaults, except header background override via CSS
 - Keep PRs small and auditable (clear commit messages, minimal blast radius)
+- Summarize commit messages with what changed (e.g. "Add MkDocs docs and config")
 
 ---
 
