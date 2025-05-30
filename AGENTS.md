@@ -198,6 +198,7 @@ When Codex is used to continue or enhance this repo, it must:
 - Avoid reintroducing plugins like `awesome-pages`; allow custom CSS only for header background, typography style, and open-source Inter font overrides
 - Use `awesome-nav` exclusively for navigation
 - Use Material theme's built-in `toc.following` feature for page table of contents (right sidebar)
+- Use the GitHub Actions workflow defined in `.github/workflows/docs.yml` to deploy the site via `mkdocs gh-deploy`
 - Control primary sidebar ordering via a `docs/.nav.yml` file: list `Intro` first, then `*` to include all other pages automatically
 - Monitor the GitHub Actions workflow runs and report any failures via https://github.com/tom-mcmillan/research/actions
 - Make all styling decisions based on Material theme defaults, except header background override via CSS
