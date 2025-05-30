@@ -47,3 +47,8 @@ https://tom-mcmillan.github.io/research/
 ```bash
 mkdocs gh-deploy --clean
 ```
+
+## Contributing
+
+Please see [CONTRIBUTING.md](CONTRIBUTING.md) for setup steps and
+guidelines. Commit messages should briefly state what changed.
