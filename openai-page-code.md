@@ -1,7 +1,6 @@
 This is the code from the page https://openai.github.io/openai-agents-python/ which i like the look and feel of. This page may be more complicated than ours, so i'm sharing it here simply because i like that each page has a unique table of contents on the right, which i believe is referred to as a secondary sidebar. I also like the primary sidebar, and the content layout, and the colors and fonts. It's for reference when building our secondary sidebar. 
 
 ```
-
 <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="indigo">
   
     
@@ -11,7 +10,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
     <div data-md-component="skip">
       
         
-        <a href="#quickstart" class="md-skip">
+        <a href="#openai-agents-sdk" class="md-skip">
           Skip to content
         </a>
       
@@ -27,9 +26,9 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="OpenAI Agents SDK" class="md-header__button md-logo" aria-label="OpenAI Agents SDK" data-md-component="logo">
+    <a href="." title="OpenAI Agents SDK" class="md-header__button md-logo" aria-label="OpenAI Agents SDK" data-md-component="logo">
       
-  <img src="../assets/logo.svg" alt="logo">
+  <img src="assets/logo.svg" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -46,7 +45,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Quickstart
+              Intro
             
           </span>
         </div>
@@ -67,13 +66,13 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
       <ul class="md-select__list">
         
           <li class="md-select__item">
-            <a href="./" hreflang="en" class="md-select__link">
+            <a href="/openai-agents-python/" hreflang="en" class="md-select__link">
               English
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="../ja/quickstart/" hreflang="ja" class="md-select__link">
+            <a href="/openai-agents-python/ja/" hreflang="ja" class="md-select__link">
               日本語
             </a>
           </li>
@@ -131,7 +130,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   </div>
   <div class="md-source__repository md-source__repository--active">
     openai-agents-python
-  <ul class="md-source__facts"><li class="md-source__fact md-source__fact--version">v0.0.16</li><li class="md-source__fact md-source__fact--stars">10.9k</li><li class="md-source__fact md-source__fact--forks">1.5k</li></ul></div>
+  <ul class="md-source__facts"><li class="md-source__fact md-source__fact--version">v0.0.16</li><li class="md-source__fact md-source__fact--stars">10.9k</li><li class="md-source__fact md-source__fact--forks">1.6k</li></ul></div>
 </a>
       </div>
     
@@ -152,7 +151,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
             
               
               <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" style="top: 48px;">
-                <div class="md-sidebar__scrollwrap" style="height: 921px;">
+                <div class="md-sidebar__scrollwrap" style="height: 1014px;">
                   <div class="md-sidebar__inner">
                     
 
@@ -160,9 +159,9 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="OpenAI Agents SDK" class="md-nav__button md-logo" aria-label="OpenAI Agents SDK" data-md-component="logo">
+    <a href="." title="OpenAI Agents SDK" class="md-nav__button md-logo" aria-label="OpenAI Agents SDK" data-md-component="logo">
       
-  <img src="../assets/logo.svg" alt="logo">
+  <img src="assets/logo.svg" alt="logo">
 
     </a>
     OpenAI Agents SDK
@@ -176,33 +175,11 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   </div>
   <div class="md-source__repository md-source__repository--active">
     openai-agents-python
-  <ul class="md-source__facts"><li class="md-source__fact md-source__fact--version">v0.0.16</li><li class="md-source__fact md-source__fact--stars">10.9k</li><li class="md-source__fact md-source__fact--forks">1.5k</li></ul></div>
+  <ul class="md-source__facts"><li class="md-source__fact md-source__fact--version">v0.0.16</li><li class="md-source__fact md-source__fact--stars">10.9k</li><li class="md-source__fact md-source__fact--forks">1.6k</li></ul></div>
 </a>
     </div>
   
   <ul class="md-nav__list">
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Intro
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
     
       
       
@@ -225,7 +202,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   
   
   <span class="md-ellipsis">
-    Quickstart
+    Intro
     
   </span>
   
@@ -233,12 +210,12 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <a href="./" class="md-nav__link md-nav__link--active">
+      <a href="." class="md-nav__link md-nav__link--active">
         
   
   
   <span class="md-ellipsis">
-    Quickstart
+    Intro
     
   </span>
   
@@ -261,114 +238,27 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
     <ul class="md-nav__list" data-md-component="toc">
       
         <li class="md-nav__item">
-  <a href="#create-a-project-and-virtual-environment" class="md-nav__link">
+  <a href="#why-use-the-agents-sdk" class="md-nav__link">
     <span class="md-ellipsis">
-      Create a project and virtual environment
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Create a project and virtual environment">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#activate-the-virtual-environment" class="md-nav__link">
-    <span class="md-ellipsis">
-      Activate the virtual environment
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#install-the-agents-sdk" class="md-nav__link">
-    <span class="md-ellipsis">
-      Install the Agents SDK
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#set-an-openai-api-key" class="md-nav__link">
-    <span class="md-ellipsis">
-      Set an OpenAI API key
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#create-your-first-agent" class="md-nav__link">
-    <span class="md-ellipsis">
-      Create your first agent
+      Why use the Agents SDK
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#add-a-few-more-agents" class="md-nav__link">
+  <a href="#installation" class="md-nav__link">
     <span class="md-ellipsis">
-      Add a few more agents
+      Installation
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#define-your-handoffs" class="md-nav__link">
+  <a href="#hello-world-example" class="md-nav__link">
     <span class="md-ellipsis">
-      Define your handoffs
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#run-the-agent-orchestration" class="md-nav__link">
-    <span class="md-ellipsis">
-      Run the agent orchestration
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#add-a-guardrail" class="md-nav__link">
-    <span class="md-ellipsis">
-      Add a guardrail
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#put-it-all-together" class="md-nav__link">
-    <span class="md-ellipsis">
-      Put it all together
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#view-your-traces" class="md-nav__link">
-    <span class="md-ellipsis">
-      View your traces
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#next-steps" class="md-nav__link">
-    <span class="md-ellipsis">
-      Next steps
+      Hello world example
     </span>
   </a>
   
@@ -389,7 +279,29 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   
   
     <li class="md-nav__item">
-      <a href="../examples/" class="md-nav__link">
+      <a href="quickstart/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Quickstart
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="examples/" class="md-nav__link">
         
   
   
@@ -426,7 +338,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
         
           
         
-        <input class="md-nav__toggle md-toggle" type="checkbox" id="__nav_4">
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4">
         
           
           <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
@@ -456,7 +368,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   
   
     <li class="md-nav__item">
-      <a href="../agents/" class="md-nav__link">
+      <a href="agents/" class="md-nav__link">
         
   
   
@@ -479,7 +391,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   
   
     <li class="md-nav__item">
-      <a href="../running_agents/" class="md-nav__link">
+      <a href="running_agents/" class="md-nav__link">
         
   
   
@@ -502,7 +414,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   
   
     <li class="md-nav__item">
-      <a href="../results/" class="md-nav__link">
+      <a href="results/" class="md-nav__link">
         
   
   
@@ -525,7 +437,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   
   
     <li class="md-nav__item">
-      <a href="../streaming/" class="md-nav__link">
+      <a href="streaming/" class="md-nav__link">
         
   
   
@@ -548,7 +460,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   
   
     <li class="md-nav__item">
-      <a href="../tools/" class="md-nav__link">
+      <a href="tools/" class="md-nav__link">
         
   
   
@@ -571,7 +483,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   
   
     <li class="md-nav__item">
-      <a href="../mcp/" class="md-nav__link">
+      <a href="mcp/" class="md-nav__link">
         
   
   
@@ -594,7 +506,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   
   
     <li class="md-nav__item">
-      <a href="../handoffs/" class="md-nav__link">
+      <a href="handoffs/" class="md-nav__link">
         
   
   
@@ -617,7 +529,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   
   
     <li class="md-nav__item">
-      <a href="../tracing/" class="md-nav__link">
+      <a href="tracing/" class="md-nav__link">
         
   
   
@@ -640,7 +552,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   
   
     <li class="md-nav__item">
-      <a href="../context/" class="md-nav__link">
+      <a href="context/" class="md-nav__link">
         
   
   
@@ -663,7 +575,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   
   
     <li class="md-nav__item">
-      <a href="../guardrails/" class="md-nav__link">
+      <a href="guardrails/" class="md-nav__link">
         
   
   
@@ -686,7 +598,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   
   
     <li class="md-nav__item">
-      <a href="../multi_agent/" class="md-nav__link">
+      <a href="multi_agent/" class="md-nav__link">
         
   
   
@@ -721,7 +633,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
         
           
         
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_12">
+        <input class="md-nav__toggle md-toggle" type="checkbox" id="__nav_4_12">
         
           
           <label class="md-nav__link" for="__nav_4_12" id="__nav_4_12_label" tabindex="0">
@@ -751,7 +663,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   
   
     <li class="md-nav__item">
-      <a href="../models/" class="md-nav__link">
+      <a href="models/" class="md-nav__link">
         
   
   
@@ -774,7 +686,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   
   
     <li class="md-nav__item">
-      <a href="../models/litellm/" class="md-nav__link">
+      <a href="models/litellm/" class="md-nav__link">
         
   
   
@@ -805,7 +717,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   
   
     <li class="md-nav__item">
-      <a href="../config/" class="md-nav__link">
+      <a href="config/" class="md-nav__link">
         
   
   
@@ -828,7 +740,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   
   
     <li class="md-nav__item">
-      <a href="../visualization/" class="md-nav__link">
+      <a href="visualization/" class="md-nav__link">
         
   
   
@@ -863,7 +775,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
         
           
         
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_15">
+        <input class="md-nav__toggle md-toggle" type="checkbox" id="__nav_4_15">
         
           
           <label class="md-nav__link" for="__nav_4_15" id="__nav_4_15_label" tabindex="0">
@@ -893,7 +805,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   
   
     <li class="md-nav__item">
-      <a href="../voice/quickstart/" class="md-nav__link">
+      <a href="voice/quickstart/" class="md-nav__link">
         
   
   
@@ -916,7 +828,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   
   
     <li class="md-nav__item">
-      <a href="../voice/pipeline/" class="md-nav__link">
+      <a href="voice/pipeline/" class="md-nav__link">
         
   
   
@@ -939,7 +851,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   
   
     <li class="md-nav__item">
-      <a href="../voice/tracing/" class="md-nav__link">
+      <a href="voice/tracing/" class="md-nav__link">
         
   
   
@@ -1034,7 +946,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
         
           
         
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_1">
+        <input class="md-nav__toggle md-toggle" type="checkbox" id="__nav_5_1">
         
           
           <label class="md-nav__link" for="__nav_5_1" id="__nav_5_1_label" tabindex="0">
@@ -1064,7 +976,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   
   
     <li class="md-nav__item">
-      <a href="../ref/" class="md-nav__link">
+      <a href="ref/" class="md-nav__link">
         
   
   
@@ -1087,7 +999,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   
   
     <li class="md-nav__item">
-      <a href="../ref/agent/" class="md-nav__link">
+      <a href="ref/agent/" class="md-nav__link">
         
   
   
@@ -1110,7 +1022,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   
   
     <li class="md-nav__item">
-      <a href="../ref/run/" class="md-nav__link">
+      <a href="ref/run/" class="md-nav__link">
         
   
   
@@ -1133,7 +1045,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   
   
     <li class="md-nav__item">
-      <a href="../ref/tool/" class="md-nav__link">
+      <a href="ref/tool/" class="md-nav__link">
         
   
   
@@ -1156,7 +1068,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   
   
     <li class="md-nav__item">
-      <a href="../ref/result/" class="md-nav__link">
+      <a href="ref/result/" class="md-nav__link">
         
   
   
@@ -1179,7 +1091,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   
   
     <li class="md-nav__item">
-      <a href="../ref/stream_events/" class="md-nav__link">
+      <a href="ref/stream_events/" class="md-nav__link">
         
   
   
@@ -1202,7 +1114,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   
   
     <li class="md-nav__item">
-      <a href="../ref/handoffs/" class="md-nav__link">
+      <a href="ref/handoffs/" class="md-nav__link">
         
   
   
@@ -1225,7 +1137,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   
   
     <li class="md-nav__item">
-      <a href="../ref/lifecycle/" class="md-nav__link">
+      <a href="ref/lifecycle/" class="md-nav__link">
         
   
   
@@ -1248,7 +1160,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   
   
     <li class="md-nav__item">
-      <a href="../ref/items/" class="md-nav__link">
+      <a href="ref/items/" class="md-nav__link">
         
   
   
@@ -1271,7 +1183,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   
   
     <li class="md-nav__item">
-      <a href="../ref/run_context/" class="md-nav__link">
+      <a href="ref/run_context/" class="md-nav__link">
         
   
   
@@ -1294,7 +1206,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   
   
     <li class="md-nav__item">
-      <a href="../ref/usage/" class="md-nav__link">
+      <a href="ref/usage/" class="md-nav__link">
         
   
   
@@ -1317,7 +1229,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   
   
     <li class="md-nav__item">
-      <a href="../ref/exceptions/" class="md-nav__link">
+      <a href="ref/exceptions/" class="md-nav__link">
         
   
   
@@ -1340,7 +1252,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   
   
     <li class="md-nav__item">
-      <a href="../ref/guardrail/" class="md-nav__link">
+      <a href="ref/guardrail/" class="md-nav__link">
         
   
   
@@ -1363,7 +1275,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   
   
     <li class="md-nav__item">
-      <a href="../ref/model_settings/" class="md-nav__link">
+      <a href="ref/model_settings/" class="md-nav__link">
         
   
   
@@ -1386,7 +1298,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   
   
     <li class="md-nav__item">
-      <a href="../ref/agent_output/" class="md-nav__link">
+      <a href="ref/agent_output/" class="md-nav__link">
         
   
   
@@ -1409,7 +1321,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   
   
     <li class="md-nav__item">
-      <a href="../ref/function_schema/" class="md-nav__link">
+      <a href="ref/function_schema/" class="md-nav__link">
         
   
   
@@ -1432,7 +1344,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   
   
     <li class="md-nav__item">
-      <a href="../ref/models/interface/" class="md-nav__link">
+      <a href="ref/models/interface/" class="md-nav__link">
         
   
   
@@ -1455,7 +1367,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   
   
     <li class="md-nav__item">
-      <a href="../ref/models/openai_chatcompletions/" class="md-nav__link">
+      <a href="ref/models/openai_chatcompletions/" class="md-nav__link">
         
   
   
@@ -1478,7 +1390,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   
   
     <li class="md-nav__item">
-      <a href="../ref/models/openai_responses/" class="md-nav__link">
+      <a href="ref/models/openai_responses/" class="md-nav__link">
         
   
   
@@ -1501,7 +1413,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   
   
     <li class="md-nav__item">
-      <a href="../ref/mcp/server/" class="md-nav__link">
+      <a href="ref/mcp/server/" class="md-nav__link">
         
   
   
@@ -1524,7 +1436,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   
   
     <li class="md-nav__item">
-      <a href="../ref/mcp/util/" class="md-nav__link">
+      <a href="ref/mcp/util/" class="md-nav__link">
         
   
   
@@ -1567,7 +1479,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
         
           
         
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_2">
+        <input class="md-nav__toggle md-toggle" type="checkbox" id="__nav_5_2">
         
           
           <label class="md-nav__link" for="__nav_5_2" id="__nav_5_2_label" tabindex="0">
@@ -1597,7 +1509,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   
   
     <li class="md-nav__item">
-      <a href="../ref/tracing/" class="md-nav__link">
+      <a href="ref/tracing/" class="md-nav__link">
         
   
   
@@ -1620,7 +1532,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   
   
     <li class="md-nav__item">
-      <a href="../ref/tracing/create/" class="md-nav__link">
+      <a href="ref/tracing/create/" class="md-nav__link">
         
   
   
@@ -1643,7 +1555,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   
   
     <li class="md-nav__item">
-      <a href="../ref/tracing/traces/" class="md-nav__link">
+      <a href="ref/tracing/traces/" class="md-nav__link">
         
   
   
@@ -1666,7 +1578,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   
   
     <li class="md-nav__item">
-      <a href="../ref/tracing/spans/" class="md-nav__link">
+      <a href="ref/tracing/spans/" class="md-nav__link">
         
   
   
@@ -1689,7 +1601,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   
   
     <li class="md-nav__item">
-      <a href="../ref/tracing/processor_interface/" class="md-nav__link">
+      <a href="ref/tracing/processor_interface/" class="md-nav__link">
         
   
   
@@ -1712,7 +1624,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   
   
     <li class="md-nav__item">
-      <a href="../ref/tracing/processors/" class="md-nav__link">
+      <a href="ref/tracing/processors/" class="md-nav__link">
         
   
   
@@ -1735,7 +1647,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   
   
     <li class="md-nav__item">
-      <a href="../ref/tracing/scope/" class="md-nav__link">
+      <a href="ref/tracing/scope/" class="md-nav__link">
         
   
   
@@ -1758,7 +1670,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   
   
     <li class="md-nav__item">
-      <a href="../ref/tracing/setup/" class="md-nav__link">
+      <a href="ref/tracing/setup/" class="md-nav__link">
         
   
   
@@ -1781,7 +1693,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   
   
     <li class="md-nav__item">
-      <a href="../ref/tracing/span_data/" class="md-nav__link">
+      <a href="ref/tracing/span_data/" class="md-nav__link">
         
   
   
@@ -1804,7 +1716,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   
   
     <li class="md-nav__item">
-      <a href="../ref/tracing/util/" class="md-nav__link">
+      <a href="ref/tracing/util/" class="md-nav__link">
         
   
   
@@ -1847,7 +1759,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
         
           
         
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_3">
+        <input class="md-nav__toggle md-toggle" type="checkbox" id="__nav_5_3">
         
           
           <label class="md-nav__link" for="__nav_5_3" id="__nav_5_3_label" tabindex="0">
@@ -1877,7 +1789,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   
   
     <li class="md-nav__item">
-      <a href="../ref/voice/pipeline/" class="md-nav__link">
+      <a href="ref/voice/pipeline/" class="md-nav__link">
         
   
   
@@ -1900,7 +1812,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   
   
     <li class="md-nav__item">
-      <a href="../ref/voice/workflow/" class="md-nav__link">
+      <a href="ref/voice/workflow/" class="md-nav__link">
         
   
   
@@ -1923,7 +1835,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   
   
     <li class="md-nav__item">
-      <a href="../ref/voice/input/" class="md-nav__link">
+      <a href="ref/voice/input/" class="md-nav__link">
         
   
   
@@ -1946,7 +1858,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   
   
     <li class="md-nav__item">
-      <a href="../ref/voice/result/" class="md-nav__link">
+      <a href="ref/voice/result/" class="md-nav__link">
         
   
   
@@ -1969,7 +1881,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   
   
     <li class="md-nav__item">
-      <a href="../ref/voice/pipeline_config/" class="md-nav__link">
+      <a href="ref/voice/pipeline_config/" class="md-nav__link">
         
   
   
@@ -1992,7 +1904,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   
   
     <li class="md-nav__item">
-      <a href="../ref/voice/events/" class="md-nav__link">
+      <a href="ref/voice/events/" class="md-nav__link">
         
   
   
@@ -2015,7 +1927,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   
   
     <li class="md-nav__item">
-      <a href="../ref/voice/exceptions/" class="md-nav__link">
+      <a href="ref/voice/exceptions/" class="md-nav__link">
         
   
   
@@ -2038,7 +1950,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   
   
     <li class="md-nav__item">
-      <a href="../ref/voice/model/" class="md-nav__link">
+      <a href="ref/voice/model/" class="md-nav__link">
         
   
   
@@ -2061,7 +1973,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   
   
     <li class="md-nav__item">
-      <a href="../ref/voice/utils/" class="md-nav__link">
+      <a href="ref/voice/utils/" class="md-nav__link">
         
   
   
@@ -2084,7 +1996,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   
   
     <li class="md-nav__item">
-      <a href="../ref/voice/models/openai_provider/" class="md-nav__link">
+      <a href="ref/voice/models/openai_provider/" class="md-nav__link">
         
   
   
@@ -2107,7 +2019,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   
   
     <li class="md-nav__item">
-      <a href="../ref/voice/models/openai_stt/" class="md-nav__link">
+      <a href="ref/voice/models/openai_stt/" class="md-nav__link">
         
   
   
@@ -2130,7 +2042,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   
   
     <li class="md-nav__item">
-      <a href="../ref/voice/models/openai_tts/" class="md-nav__link">
+      <a href="ref/voice/models/openai_tts/" class="md-nav__link">
         
   
   
@@ -2173,7 +2085,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
         
           
         
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_4">
+        <input class="md-nav__toggle md-toggle" type="checkbox" id="__nav_5_4">
         
           
           <label class="md-nav__link" for="__nav_5_4" id="__nav_5_4_label" tabindex="0">
@@ -2203,7 +2115,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   
   
     <li class="md-nav__item">
-      <a href="../ref/extensions/handoff_filters/" class="md-nav__link">
+      <a href="ref/extensions/handoff_filters/" class="md-nav__link">
         
   
   
@@ -2226,7 +2138,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   
   
     <li class="md-nav__item">
-      <a href="../ref/extensions/handoff_prompt/" class="md-nav__link">
+      <a href="ref/extensions/handoff_prompt/" class="md-nav__link">
         
   
   
@@ -2249,7 +2161,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   
   
     <li class="md-nav__item">
-      <a href="../ref/extensions/litellm/" class="md-nav__link">
+      <a href="ref/extensions/litellm/" class="md-nav__link">
         
   
   
@@ -2289,7 +2201,7 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
             
               
               <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" style="top: 48px;">
-                <div class="md-sidebar__scrollwrap" style="height: 921px;">
+                <div class="md-sidebar__scrollwrap" style="height: 1014px;">
                   <div class="md-sidebar__inner">
                     
 
@@ -2307,114 +2219,27 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
     <ul class="md-nav__list" data-md-component="toc">
       
         <li class="md-nav__item">
-  <a href="#create-a-project-and-virtual-environment" class="md-nav__link">
+  <a href="#why-use-the-agents-sdk" class="md-nav__link">
     <span class="md-ellipsis">
-      Create a project and virtual environment
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Create a project and virtual environment">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#activate-the-virtual-environment" class="md-nav__link">
-    <span class="md-ellipsis">
-      Activate the virtual environment
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#install-the-agents-sdk" class="md-nav__link">
-    <span class="md-ellipsis">
-      Install the Agents SDK
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#set-an-openai-api-key" class="md-nav__link">
-    <span class="md-ellipsis">
-      Set an OpenAI API key
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#create-your-first-agent" class="md-nav__link">
-    <span class="md-ellipsis">
-      Create your first agent
+      Why use the Agents SDK
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#add-a-few-more-agents" class="md-nav__link">
+  <a href="#installation" class="md-nav__link">
     <span class="md-ellipsis">
-      Add a few more agents
+      Installation
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#define-your-handoffs" class="md-nav__link">
+  <a href="#hello-world-example" class="md-nav__link">
     <span class="md-ellipsis">
-      Define your handoffs
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#run-the-agent-orchestration" class="md-nav__link">
-    <span class="md-ellipsis">
-      Run the agent orchestration
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#add-a-guardrail" class="md-nav__link">
-    <span class="md-ellipsis">
-      Add a guardrail
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#put-it-all-together" class="md-nav__link">
-    <span class="md-ellipsis">
-      Put it all together
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#view-your-traces" class="md-nav__link">
-    <span class="md-ellipsis">
-      View your traces
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#next-steps" class="md-nav__link">
-    <span class="md-ellipsis">
-      Next steps
+      Hello world example
     </span>
   </a>
   
@@ -2439,153 +2264,47 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
   
 
 
-<h1 id="quickstart">Quickstart</h1>
-<h2 id="create-a-project-and-virtual-environment">Create a project and virtual environment</h2>
-<p>You'll only need to do this once.</p>
-<div class="language-bash highlight"><pre id="__code_0"><span></span><button class="md-clipboard md-icon" title="Copy to clipboard" data-clipboard-target="#__code_0 > code"></button><code class="md-code__content"><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>mkdir<span class="w"> </span>my_project
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="nb">cd</span><span class="w"> </span>my_project
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>python<span class="w"> </span>-m<span class="w"> </span>venv<span class="w"> </span>.venv
-</span></code></pre></div>
-<h3 id="activate-the-virtual-environment">Activate the virtual environment</h3>
-<p>Do this every time you start a new terminal session.</p>
-<div class="language-bash highlight"><pre id="__code_1"><span></span><button class="md-clipboard md-icon" title="Copy to clipboard" data-clipboard-target="#__code_1 > code"></button><code class="md-code__content"><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="nb">source</span><span class="w"> </span>.venv/bin/activate
-</span></code></pre></div>
-<h3 id="install-the-agents-sdk">Install the Agents SDK</h3>
-<div class="language-bash highlight"><pre id="__code_2"><span></span><button class="md-clipboard md-icon" title="Copy to clipboard" data-clipboard-target="#__code_2 > code"></button><code class="md-code__content"><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>pip<span class="w"> </span>install<span class="w"> </span>openai-agents<span class="w"> </span><span class="c1"># or `uv add openai-agents`, etc</span>
-</span></code></pre></div>
-<h3 id="set-an-openai-api-key">Set an OpenAI API key</h3>
-<p>If you don't have one, follow <a href="https://platform.openai.com/docs/quickstart#create-and-export-an-api-key">these instructions</a> to create an OpenAI API key.</p>
-<div class="language-bash highlight"><pre id="__code_3"><span></span><button class="md-clipboard md-icon" title="Copy to clipboard" data-clipboard-target="#__code_3 > code"></button><code class="md-code__content"><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="nb">export</span><span class="w"> </span><span class="nv">OPENAI_API_KEY</span><span class="o">=</span>sk-...
-</span></code></pre></div>
-<h2 id="create-your-first-agent">Create your first agent</h2>
-<p>Agents are defined with instructions, a name, and optional config (such as <code>model_config</code>)</p>
-<div class="language-python highlight"><pre id="__code_4"><span></span><button class="md-clipboard md-icon" title="Copy to clipboard" data-clipboard-target="#__code_4 > code"></button><code class="md-code__content" tabindex="0"><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">agents</span><span class="w"> </span><span class="kn">import</span> <span class="n">Agent</span>
-</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>
-</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="n">agent</span> <span class="o">=</span> <span class="n">Agent</span><span class="p">(</span>
-</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>    <span class="n">name</span><span class="o">=</span><span class="s2">"Math Tutor"</span><span class="p">,</span>
-</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>    <span class="n">instructions</span><span class="o">=</span><span class="s2">"You provide help with math problems. Explain your reasoning at each step and include examples"</span><span class="p">,</span>
-</span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a><span class="p">)</span>
-</span></code></pre></div>
-<h2 id="add-a-few-more-agents">Add a few more agents</h2>
-<p>Additional agents can be defined in the same way. <code>handoff_descriptions</code> provide additional context for determining handoff routing</p>
-<div class="language-python highlight"><pre id="__code_5"><span></span><button class="md-clipboard md-icon" title="Copy to clipboard" data-clipboard-target="#__code_5 > code"></button><code class="md-code__content" tabindex="0"><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">agents</span><span class="w"> </span><span class="kn">import</span> <span class="n">Agent</span>
-</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>
-</span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a><span class="n">history_tutor_agent</span> <span class="o">=</span> <span class="n">Agent</span><span class="p">(</span>
-</span><span id="__span-5-4"><a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a>    <span class="n">name</span><span class="o">=</span><span class="s2">"History Tutor"</span><span class="p">,</span>
-</span><span id="__span-5-5"><a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a>    <span class="n">handoff_description</span><span class="o">=</span><span class="s2">"Specialist agent for historical questions"</span><span class="p">,</span>
-</span><span id="__span-5-6"><a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a>    <span class="n">instructions</span><span class="o">=</span><span class="s2">"You provide assistance with historical queries. Explain important events and context clearly."</span><span class="p">,</span>
-</span><span id="__span-5-7"><a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a><span class="p">)</span>
-</span><span id="__span-5-8"><a id="__codelineno-5-8" name="__codelineno-5-8" href="#__codelineno-5-8"></a>
-</span><span id="__span-5-9"><a id="__codelineno-5-9" name="__codelineno-5-9" href="#__codelineno-5-9"></a><span class="n">math_tutor_agent</span> <span class="o">=</span> <span class="n">Agent</span><span class="p">(</span>
-</span><span id="__span-5-10"><a id="__codelineno-5-10" name="__codelineno-5-10" href="#__codelineno-5-10"></a>    <span class="n">name</span><span class="o">=</span><span class="s2">"Math Tutor"</span><span class="p">,</span>
-</span><span id="__span-5-11"><a id="__codelineno-5-11" name="__codelineno-5-11" href="#__codelineno-5-11"></a>    <span class="n">handoff_description</span><span class="o">=</span><span class="s2">"Specialist agent for math questions"</span><span class="p">,</span>
-</span><span id="__span-5-12"><a id="__codelineno-5-12" name="__codelineno-5-12" href="#__codelineno-5-12"></a>    <span class="n">instructions</span><span class="o">=</span><span class="s2">"You provide help with math problems. Explain your reasoning at each step and include examples"</span><span class="p">,</span>
-</span><span id="__span-5-13"><a id="__codelineno-5-13" name="__codelineno-5-13" href="#__codelineno-5-13"></a><span class="p">)</span>
-</span></code></pre></div>
-<h2 id="define-your-handoffs">Define your handoffs</h2>
-<p>On each agent, you can define an inventory of outgoing handoff options that the agent can choose from to decide how to make progress on their task.</p>
-<div class="language-python highlight"><pre id="__code_6"><span></span><button class="md-clipboard md-icon" title="Copy to clipboard" data-clipboard-target="#__code_6 > code"></button><code class="md-code__content" tabindex="0"><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="n">triage_agent</span> <span class="o">=</span> <span class="n">Agent</span><span class="p">(</span>
-</span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>    <span class="n">name</span><span class="o">=</span><span class="s2">"Triage Agent"</span><span class="p">,</span>
-</span><span id="__span-6-3"><a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a>    <span class="n">instructions</span><span class="o">=</span><span class="s2">"You determine which agent to use based on the user's homework question"</span><span class="p">,</span>
-</span><span id="__span-6-4"><a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a>    <span class="n">handoffs</span><span class="o">=</span><span class="p">[</span><span class="n">history_tutor_agent</span><span class="p">,</span> <span class="n">math_tutor_agent</span><span class="p">]</span>
-</span><span id="__span-6-5"><a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a><span class="p">)</span>
-</span></code></pre></div>
-<h2 id="run-the-agent-orchestration">Run the agent orchestration</h2>
-<p>Let's check that the workflow runs and the triage agent correctly routes between the two specialist agents.</p>
-<div class="language-python highlight"><pre id="__code_7"><span></span><button class="md-clipboard md-icon" title="Copy to clipboard" data-clipboard-target="#__code_7 > code"></button><code class="md-code__content"><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">agents</span><span class="w"> </span><span class="kn">import</span> <span class="n">Runner</span>
-</span><span id="__span-7-2"><a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a>
-</span><span id="__span-7-3"><a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a><span class="k">async</span> <span class="k">def</span><span class="w"> </span><span class="nf">main</span><span class="p">():</span>
-</span><span id="__span-7-4"><a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a>    <span class="n">result</span> <span class="o">=</span> <span class="k">await</span> <span class="n">Runner</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">triage_agent</span><span class="p">,</span> <span class="s2">"What is the capital of France?"</span><span class="p">)</span>
-</span><span id="__span-7-5"><a id="__codelineno-7-5" name="__codelineno-7-5" href="#__codelineno-7-5"></a>    <span class="nb">print</span><span class="p">(</span><span class="n">result</span><span class="o">.</span><span class="n">final_output</span><span class="p">)</span>
-</span></code></pre></div>
-<h2 id="add-a-guardrail">Add a guardrail</h2>
-<p>You can define custom guardrails to run on the input or output.</p>
-<div class="language-python highlight"><pre id="__code_8"><span></span><button class="md-clipboard md-icon" title="Copy to clipboard" data-clipboard-target="#__code_8 > code"></button><code class="md-code__content" tabindex="0"><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">agents</span><span class="w"> </span><span class="kn">import</span> <span class="n">GuardrailFunctionOutput</span><span class="p">,</span> <span class="n">Agent</span><span class="p">,</span> <span class="n">Runner</span>
-</span><span id="__span-8-2"><a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a><span class="kn">from</span><span class="w"> </span><span class="nn">pydantic</span><span class="w"> </span><span class="kn">import</span> <span class="n">BaseModel</span>
-</span><span id="__span-8-3"><a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a>
-</span><span id="__span-8-4"><a id="__codelineno-8-4" name="__codelineno-8-4" href="#__codelineno-8-4"></a><span class="k">class</span><span class="w"> </span><span class="nc">HomeworkOutput</span><span class="p">(</span><span class="n">BaseModel</span><span class="p">):</span>
-</span><span id="__span-8-5"><a id="__codelineno-8-5" name="__codelineno-8-5" href="#__codelineno-8-5"></a>    <span class="n">is_homework</span><span class="p">:</span> <span class="nb">bool</span>
-</span><span id="__span-8-6"><a id="__codelineno-8-6" name="__codelineno-8-6" href="#__codelineno-8-6"></a>    <span class="n">reasoning</span><span class="p">:</span> <span class="nb">str</span>
-</span><span id="__span-8-7"><a id="__codelineno-8-7" name="__codelineno-8-7" href="#__codelineno-8-7"></a>
-</span><span id="__span-8-8"><a id="__codelineno-8-8" name="__codelineno-8-8" href="#__codelineno-8-8"></a><span class="n">guardrail_agent</span> <span class="o">=</span> <span class="n">Agent</span><span class="p">(</span>
-</span><span id="__span-8-9"><a id="__codelineno-8-9" name="__codelineno-8-9" href="#__codelineno-8-9"></a>    <span class="n">name</span><span class="o">=</span><span class="s2">"Guardrail check"</span><span class="p">,</span>
-</span><span id="__span-8-10"><a id="__codelineno-8-10" name="__codelineno-8-10" href="#__codelineno-8-10"></a>    <span class="n">instructions</span><span class="o">=</span><span class="s2">"Check if the user is asking about homework."</span><span class="p">,</span>
-</span><span id="__span-8-11"><a id="__codelineno-8-11" name="__codelineno-8-11" href="#__codelineno-8-11"></a>    <span class="n">output_type</span><span class="o">=</span><span class="n">HomeworkOutput</span><span class="p">,</span>
-</span><span id="__span-8-12"><a id="__codelineno-8-12" name="__codelineno-8-12" href="#__codelineno-8-12"></a><span class="p">)</span>
-</span><span id="__span-8-13"><a id="__codelineno-8-13" name="__codelineno-8-13" href="#__codelineno-8-13"></a>
-</span><span id="__span-8-14"><a id="__codelineno-8-14" name="__codelineno-8-14" href="#__codelineno-8-14"></a><span class="k">async</span> <span class="k">def</span><span class="w"> </span><span class="nf">homework_guardrail</span><span class="p">(</span><span class="n">ctx</span><span class="p">,</span> <span class="n">agent</span><span class="p">,</span> <span class="n">input_data</span><span class="p">):</span>
-</span><span id="__span-8-15"><a id="__codelineno-8-15" name="__codelineno-8-15" href="#__codelineno-8-15"></a>    <span class="n">result</span> <span class="o">=</span> <span class="k">await</span> <span class="n">Runner</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">guardrail_agent</span><span class="p">,</span> <span class="n">input_data</span><span class="p">,</span> <span class="n">context</span><span class="o">=</span><span class="n">ctx</span><span class="o">.</span><span class="n">context</span><span class="p">)</span>
-</span><span id="__span-8-16"><a id="__codelineno-8-16" name="__codelineno-8-16" href="#__codelineno-8-16"></a>    <span class="n">final_output</span> <span class="o">=</span> <span class="n">result</span><span class="o">.</span><span class="n">final_output_as</span><span class="p">(</span><span class="n">HomeworkOutput</span><span class="p">)</span>
-</span><span id="__span-8-17"><a id="__codelineno-8-17" name="__codelineno-8-17" href="#__codelineno-8-17"></a>    <span class="k">return</span> <span class="n">GuardrailFunctionOutput</span><span class="p">(</span>
-</span><span id="__span-8-18"><a id="__codelineno-8-18" name="__codelineno-8-18" href="#__codelineno-8-18"></a>        <span class="n">output_info</span><span class="o">=</span><span class="n">final_output</span><span class="p">,</span>
-</span><span id="__span-8-19"><a id="__codelineno-8-19" name="__codelineno-8-19" href="#__codelineno-8-19"></a>        <span class="n">tripwire_triggered</span><span class="o">=</span><span class="ow">not</span> <span class="n">final_output</span><span class="o">.</span><span class="n">is_homework</span><span class="p">,</span>
-</span><span id="__span-8-20"><a id="__codelineno-8-20" name="__codelineno-8-20" href="#__codelineno-8-20"></a>    <span class="p">)</span>
-</span></code></pre></div>
-<h2 id="put-it-all-together">Put it all together</h2>
-<p>Let's put it all together and run the entire workflow, using handoffs and the input guardrail.</p>
-<div class="language-python highlight"><pre id="__code_9"><span></span><button class="md-clipboard md-icon" title="Copy to clipboard" data-clipboard-target="#__code_9 > code"></button><code class="md-code__content" tabindex="0"><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">agents</span><span class="w"> </span><span class="kn">import</span> <span class="n">Agent</span><span class="p">,</span> <span class="n">InputGuardrail</span><span class="p">,</span> <span class="n">GuardrailFunctionOutput</span><span class="p">,</span> <span class="n">Runner</span>
-</span><span id="__span-9-2"><a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a><span class="kn">from</span><span class="w"> </span><span class="nn">pydantic</span><span class="w"> </span><span class="kn">import</span> <span class="n">BaseModel</span>
-</span><span id="__span-9-3"><a id="__codelineno-9-3" name="__codelineno-9-3" href="#__codelineno-9-3"></a><span class="kn">import</span><span class="w"> </span><span class="nn">asyncio</span>
-</span><span id="__span-9-4"><a id="__codelineno-9-4" name="__codelineno-9-4" href="#__codelineno-9-4"></a>
-</span><span id="__span-9-5"><a id="__codelineno-9-5" name="__codelineno-9-5" href="#__codelineno-9-5"></a><span class="k">class</span><span class="w"> </span><span class="nc">HomeworkOutput</span><span class="p">(</span><span class="n">BaseModel</span><span class="p">):</span>
-</span><span id="__span-9-6"><a id="__codelineno-9-6" name="__codelineno-9-6" href="#__codelineno-9-6"></a>    <span class="n">is_homework</span><span class="p">:</span> <span class="nb">bool</span>
-</span><span id="__span-9-7"><a id="__codelineno-9-7" name="__codelineno-9-7" href="#__codelineno-9-7"></a>    <span class="n">reasoning</span><span class="p">:</span> <span class="nb">str</span>
-</span><span id="__span-9-8"><a id="__codelineno-9-8" name="__codelineno-9-8" href="#__codelineno-9-8"></a>
-</span><span id="__span-9-9"><a id="__codelineno-9-9" name="__codelineno-9-9" href="#__codelineno-9-9"></a><span class="n">guardrail_agent</span> <span class="o">=</span> <span class="n">Agent</span><span class="p">(</span>
-</span><span id="__span-9-10"><a id="__codelineno-9-10" name="__codelineno-9-10" href="#__codelineno-9-10"></a>    <span class="n">name</span><span class="o">=</span><span class="s2">"Guardrail check"</span><span class="p">,</span>
-</span><span id="__span-9-11"><a id="__codelineno-9-11" name="__codelineno-9-11" href="#__codelineno-9-11"></a>    <span class="n">instructions</span><span class="o">=</span><span class="s2">"Check if the user is asking about homework."</span><span class="p">,</span>
-</span><span id="__span-9-12"><a id="__codelineno-9-12" name="__codelineno-9-12" href="#__codelineno-9-12"></a>    <span class="n">output_type</span><span class="o">=</span><span class="n">HomeworkOutput</span><span class="p">,</span>
-</span><span id="__span-9-13"><a id="__codelineno-9-13" name="__codelineno-9-13" href="#__codelineno-9-13"></a><span class="p">)</span>
-</span><span id="__span-9-14"><a id="__codelineno-9-14" name="__codelineno-9-14" href="#__codelineno-9-14"></a>
-</span><span id="__span-9-15"><a id="__codelineno-9-15" name="__codelineno-9-15" href="#__codelineno-9-15"></a><span class="n">math_tutor_agent</span> <span class="o">=</span> <span class="n">Agent</span><span class="p">(</span>
-</span><span id="__span-9-16"><a id="__codelineno-9-16" name="__codelineno-9-16" href="#__codelineno-9-16"></a>    <span class="n">name</span><span class="o">=</span><span class="s2">"Math Tutor"</span><span class="p">,</span>
-</span><span id="__span-9-17"><a id="__codelineno-9-17" name="__codelineno-9-17" href="#__codelineno-9-17"></a>    <span class="n">handoff_description</span><span class="o">=</span><span class="s2">"Specialist agent for math questions"</span><span class="p">,</span>
-</span><span id="__span-9-18"><a id="__codelineno-9-18" name="__codelineno-9-18" href="#__codelineno-9-18"></a>    <span class="n">instructions</span><span class="o">=</span><span class="s2">"You provide help with math problems. Explain your reasoning at each step and include examples"</span><span class="p">,</span>
-</span><span id="__span-9-19"><a id="__codelineno-9-19" name="__codelineno-9-19" href="#__codelineno-9-19"></a><span class="p">)</span>
-</span><span id="__span-9-20"><a id="__codelineno-9-20" name="__codelineno-9-20" href="#__codelineno-9-20"></a>
-</span><span id="__span-9-21"><a id="__codelineno-9-21" name="__codelineno-9-21" href="#__codelineno-9-21"></a><span class="n">history_tutor_agent</span> <span class="o">=</span> <span class="n">Agent</span><span class="p">(</span>
-</span><span id="__span-9-22"><a id="__codelineno-9-22" name="__codelineno-9-22" href="#__codelineno-9-22"></a>    <span class="n">name</span><span class="o">=</span><span class="s2">"History Tutor"</span><span class="p">,</span>
-</span><span id="__span-9-23"><a id="__codelineno-9-23" name="__codelineno-9-23" href="#__codelineno-9-23"></a>    <span class="n">handoff_description</span><span class="o">=</span><span class="s2">"Specialist agent for historical questions"</span><span class="p">,</span>
-</span><span id="__span-9-24"><a id="__codelineno-9-24" name="__codelineno-9-24" href="#__codelineno-9-24"></a>    <span class="n">instructions</span><span class="o">=</span><span class="s2">"You provide assistance with historical queries. Explain important events and context clearly."</span><span class="p">,</span>
-</span><span id="__span-9-25"><a id="__codelineno-9-25" name="__codelineno-9-25" href="#__codelineno-9-25"></a><span class="p">)</span>
-</span><span id="__span-9-26"><a id="__codelineno-9-26" name="__codelineno-9-26" href="#__codelineno-9-26"></a>
-</span><span id="__span-9-27"><a id="__codelineno-9-27" name="__codelineno-9-27" href="#__codelineno-9-27"></a>
-</span><span id="__span-9-28"><a id="__codelineno-9-28" name="__codelineno-9-28" href="#__codelineno-9-28"></a><span class="k">async</span> <span class="k">def</span><span class="w"> </span><span class="nf">homework_guardrail</span><span class="p">(</span><span class="n">ctx</span><span class="p">,</span> <span class="n">agent</span><span class="p">,</span> <span class="n">input_data</span><span class="p">):</span>
-</span><span id="__span-9-29"><a id="__codelineno-9-29" name="__codelineno-9-29" href="#__codelineno-9-29"></a>    <span class="n">result</span> <span class="o">=</span> <span class="k">await</span> <span class="n">Runner</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">guardrail_agent</span><span class="p">,</span> <span class="n">input_data</span><span class="p">,</span> <span class="n">context</span><span class="o">=</span><span class="n">ctx</span><span class="o">.</span><span class="n">context</span><span class="p">)</span>
-</span><span id="__span-9-30"><a id="__codelineno-9-30" name="__codelineno-9-30" href="#__codelineno-9-30"></a>    <span class="n">final_output</span> <span class="o">=</span> <span class="n">result</span><span class="o">.</span><span class="n">final_output_as</span><span class="p">(</span><span class="n">HomeworkOutput</span><span class="p">)</span>
-</span><span id="__span-9-31"><a id="__codelineno-9-31" name="__codelineno-9-31" href="#__codelineno-9-31"></a>    <span class="k">return</span> <span class="n">GuardrailFunctionOutput</span><span class="p">(</span>
-</span><span id="__span-9-32"><a id="__codelineno-9-32" name="__codelineno-9-32" href="#__codelineno-9-32"></a>        <span class="n">output_info</span><span class="o">=</span><span class="n">final_output</span><span class="p">,</span>
-</span><span id="__span-9-33"><a id="__codelineno-9-33" name="__codelineno-9-33" href="#__codelineno-9-33"></a>        <span class="n">tripwire_triggered</span><span class="o">=</span><span class="ow">not</span> <span class="n">final_output</span><span class="o">.</span><span class="n">is_homework</span><span class="p">,</span>
-</span><span id="__span-9-34"><a id="__codelineno-9-34" name="__codelineno-9-34" href="#__codelineno-9-34"></a>    <span class="p">)</span>
-</span><span id="__span-9-35"><a id="__codelineno-9-35" name="__codelineno-9-35" href="#__codelineno-9-35"></a>
-</span><span id="__span-9-36"><a id="__codelineno-9-36" name="__codelineno-9-36" href="#__codelineno-9-36"></a><span class="n">triage_agent</span> <span class="o">=</span> <span class="n">Agent</span><span class="p">(</span>
-</span><span id="__span-9-37"><a id="__codelineno-9-37" name="__codelineno-9-37" href="#__codelineno-9-37"></a>    <span class="n">name</span><span class="o">=</span><span class="s2">"Triage Agent"</span><span class="p">,</span>
-</span><span id="__span-9-38"><a id="__codelineno-9-38" name="__codelineno-9-38" href="#__codelineno-9-38"></a>    <span class="n">instructions</span><span class="o">=</span><span class="s2">"You determine which agent to use based on the user's homework question"</span><span class="p">,</span>
-</span><span id="__span-9-39"><a id="__codelineno-9-39" name="__codelineno-9-39" href="#__codelineno-9-39"></a>    <span class="n">handoffs</span><span class="o">=</span><span class="p">[</span><span class="n">history_tutor_agent</span><span class="p">,</span> <span class="n">math_tutor_agent</span><span class="p">],</span>
-</span><span id="__span-9-40"><a id="__codelineno-9-40" name="__codelineno-9-40" href="#__codelineno-9-40"></a>    <span class="n">input_guardrails</span><span class="o">=</span><span class="p">[</span>
-</span><span id="__span-9-41"><a id="__codelineno-9-41" name="__codelineno-9-41" href="#__codelineno-9-41"></a>        <span class="n">InputGuardrail</span><span class="p">(</span><span class="n">guardrail_function</span><span class="o">=</span><span class="n">homework_guardrail</span><span class="p">),</span>
-</span><span id="__span-9-42"><a id="__codelineno-9-42" name="__codelineno-9-42" href="#__codelineno-9-42"></a>    <span class="p">],</span>
-</span><span id="__span-9-43"><a id="__codelineno-9-43" name="__codelineno-9-43" href="#__codelineno-9-43"></a><span class="p">)</span>
-</span><span id="__span-9-44"><a id="__codelineno-9-44" name="__codelineno-9-44" href="#__codelineno-9-44"></a>
-</span><span id="__span-9-45"><a id="__codelineno-9-45" name="__codelineno-9-45" href="#__codelineno-9-45"></a><span class="k">async</span> <span class="k">def</span><span class="w"> </span><span class="nf">main</span><span class="p">():</span>
-</span><span id="__span-9-46"><a id="__codelineno-9-46" name="__codelineno-9-46" href="#__codelineno-9-46"></a>    <span class="n">result</span> <span class="o">=</span> <span class="k">await</span> <span class="n">Runner</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">triage_agent</span><span class="p">,</span> <span class="s2">"who was the first president of the united states?"</span><span class="p">)</span>
-</span><span id="__span-9-47"><a id="__codelineno-9-47" name="__codelineno-9-47" href="#__codelineno-9-47"></a>    <span class="nb">print</span><span class="p">(</span><span class="n">result</span><span class="o">.</span><span class="n">final_output</span><span class="p">)</span>
-</span><span id="__span-9-48"><a id="__codelineno-9-48" name="__codelineno-9-48" href="#__codelineno-9-48"></a>
-</span><span id="__span-9-49"><a id="__codelineno-9-49" name="__codelineno-9-49" href="#__codelineno-9-49"></a>    <span class="n">result</span> <span class="o">=</span> <span class="k">await</span> <span class="n">Runner</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">triage_agent</span><span class="p">,</span> <span class="s2">"what is life"</span><span class="p">)</span>
-</span><span id="__span-9-50"><a id="__codelineno-9-50" name="__codelineno-9-50" href="#__codelineno-9-50"></a>    <span class="nb">print</span><span class="p">(</span><span class="n">result</span><span class="o">.</span><span class="n">final_output</span><span class="p">)</span>
-</span><span id="__span-9-51"><a id="__codelineno-9-51" name="__codelineno-9-51" href="#__codelineno-9-51"></a>
-</span><span id="__span-9-52"><a id="__codelineno-9-52" name="__codelineno-9-52" href="#__codelineno-9-52"></a><span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">"__main__"</span><span class="p">:</span>
-</span><span id="__span-9-53"><a id="__codelineno-9-53" name="__codelineno-9-53" href="#__codelineno-9-53"></a>    <span class="n">asyncio</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">main</span><span class="p">())</span>
-</span></code></pre></div>
-<h2 id="view-your-traces">View your traces</h2>
-<p>To review what happened during your agent run, navigate to the <a href="https://platform.openai.com/traces">Trace viewer in the OpenAI Dashboard</a> to view traces of your agent runs.</p>
-<h2 id="next-steps">Next steps</h2>
-<p>Learn how to build more complex agentic flows:</p>
+<h1 id="openai-agents-sdk">OpenAI Agents SDK</h1>
+<p>The <a href="https://github.com/openai/openai-agents-python">OpenAI Agents SDK</a> enables you to build agentic AI apps in a lightweight, easy-to-use package with very few abstractions. It's a production-ready upgrade of our previous experimentation for agents, <a href="https://github.com/openai/swarm/tree/main">Swarm</a>. The Agents SDK has a very small set of primitives:</p>
 <ul>
-<li>Learn about how to configure <a href="../agents/">Agents</a>.</li>
-<li>Learn about <a href="../running_agents/">running agents</a>.</li>
-<li>Learn about <a href="../tools/">tools</a>, <a href="../guardrails/">guardrails</a> and <a href="../models/">models</a>.</li>
+<li><strong>Agents</strong>, which are LLMs equipped with instructions and tools</li>
+<li><strong>Handoffs</strong>, which allow agents to delegate to other agents for specific tasks</li>
+<li><strong>Guardrails</strong>, which enable the inputs to agents to be validated</li>
 </ul>
+<p>In combination with Python, these primitives are powerful enough to express complex relationships between tools and agents, and allow you to build real-world applications without a steep learning curve. In addition, the SDK comes with built-in <strong>tracing</strong> that lets you visualize and debug your agentic flows, as well as evaluate them and even fine-tune models for your application.</p>
+<h2 id="why-use-the-agents-sdk">Why use the Agents SDK</h2>
+<p>The SDK has two driving design principles:</p>
+<ol>
+<li>Enough features to be worth using, but few enough primitives to make it quick to learn.</li>
+<li>Works great out of the box, but you can customize exactly what happens.</li>
+</ol>
+<p>Here are the main features of the SDK:</p>
+<ul>
+<li>Agent loop: Built-in agent loop that handles calling tools, sending results to the LLM, and looping until the LLM is done.</li>
+<li>Python-first: Use built-in language features to orchestrate and chain agents, rather than needing to learn new abstractions.</li>
+<li>Handoffs: A powerful feature to coordinate and delegate between multiple agents.</li>
+<li>Guardrails: Run input validations and checks in parallel to your agents, breaking early if the checks fail.</li>
+<li>Function tools: Turn any Python function into a tool, with automatic schema generation and Pydantic-powered validation.</li>
+<li>Tracing: Built-in tracing that lets you visualize, debug and monitor your workflows, as well as use the OpenAI suite of evaluation, fine-tuning and distillation tools.</li>
+</ul>
+<h2 id="installation">Installation</h2>
+<div class="language-bash highlight"><pre id="__code_0"><span></span><button class="md-clipboard md-icon" title="Copy to clipboard" data-clipboard-target="#__code_0 > code"></button><code class="md-code__content"><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>pip<span class="w"> </span>install<span class="w"> </span>openai-agents
+</span></code></pre></div>
+<h2 id="hello-world-example">Hello world example</h2>
+<div class="language-python highlight"><pre id="__code_1"><span></span><button class="md-clipboard md-icon" title="Copy to clipboard" data-clipboard-target="#__code_1 > code"></button><code class="md-code__content" tabindex="0"><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">agents</span><span class="w"> </span><span class="kn">import</span> <span class="n">Agent</span><span class="p">,</span> <span class="n">Runner</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="n">agent</span> <span class="o">=</span> <span class="n">Agent</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s2">"Assistant"</span><span class="p">,</span> <span class="n">instructions</span><span class="o">=</span><span class="s2">"You are a helpful assistant"</span><span class="p">)</span>
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="n">result</span> <span class="o">=</span> <span class="n">Runner</span><span class="o">.</span><span class="n">run_sync</span><span class="p">(</span><span class="n">agent</span><span class="p">,</span> <span class="s2">"Write a haiku about recursion in programming."</span><span class="p">)</span>
+</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="nb">print</span><span class="p">(</span><span class="n">result</span><span class="o">.</span><span class="n">final_output</span><span class="p">)</span>
+</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a>
+</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="c1"># Code within the code,</span>
+</span><span id="__span-1-9"><a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a><span class="c1"># Functions calling themselves,</span>
+</span><span id="__span-1-10"><a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a><span class="c1"># Infinite loop's dance.</span>
+</span></code></pre></div>
+<p>(<em>If running this, ensure you set the <code>OPENAI_API_KEY</code> environment variable</em>)</p>
+<div class="language-bash highlight"><pre id="__code_2"><span></span><button class="md-clipboard md-icon" title="Copy to clipboard" data-clipboard-target="#__code_2 > code"></button><code class="md-code__content"><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="nb">export</span><span class="w"> </span><span class="nv">OPENAI_API_KEY</span><span class="o">=</span>sk-...
+</span></code></pre></div>
 
 
 
@@ -2629,13 +2348,12 @@ This is the code from the page https://openai.github.io/openai-agents-python/ wh
     
     
       
-      <script id="__config" type="application/json">{"base": "..", "features": ["content.code.copy", "content.code.select", "navigation.path", "navigation.sections", "navigation.expand", "content.code.annotate"], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": ".", "features": ["content.code.copy", "content.code.select", "navigation.path", "navigation.sections", "navigation.expand", "content.code.annotate"], "search": "assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../assets/javascripts/bundle.c8b220af.min.js"></script>
+      <script src="assets/javascripts/bundle.c8b220af.min.js"></script>
       
     
   
 </body>
-
 ```
