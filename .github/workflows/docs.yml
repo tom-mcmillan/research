@@ -1,4 +1,6 @@
 name: Build & Deploy MkDocs
+permissions:
+  contents: write
 
 on:
   pull_request:
