@@ -1,0 +1,7 @@
+# Tractus on Philosophy
+
+In the beginning, there is the **impression**—a fleeting spark of insight or observation. Yet true understanding arises only when we **capture** that spark in a durable form. Our philosophical mandate is to immortalize every insight as a discrete, immutable **Knowledge Artifact**, each carrying within it its own full provenance: who or what generated it, when it was generated, and, most importantly, *why* it was judged worthy of capture.
+
+This “epistemic ledger” model reframes knowledge not as a malleable document but as a **currency of ideas**—atomic, tradable, and self-contained. We deliberately resist imposing a predetermined ontology or rigid categories at the database level; instead, artifacts remain minimal, free of UI-driven taxonomies, with richer semantic relationships emerging organically through agent-driven workflows and external services. In this way, our system honors the **philosophy of emergence**: complex structures of meaning arise not from monolithic schemas but from the dynamic interplay of simple, self-contained units.
+
+Underpinning every handoff is the **Model Context Protocol (MCP)**—a contract that enforces consistency, auditability, and guardrails. Whether streaming partial results, invoking a specialized agent, or retrying a failed tool call, MCP ensures that each step is transparent and recoverable. In this treaty of thought, knowledge is not just stored; it is **guaranteed**—immutable, traceable, and forever exchangeable.
