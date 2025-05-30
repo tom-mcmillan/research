@@ -199,6 +199,7 @@ When Codex is used to continue or enhance this repo, it must:
 - Use `awesome-nav` exclusively for navigation
 - Use Material theme's built-in `toc.following` feature for page table of contents (right sidebar)
 - Control primary sidebar ordering via a `docs/.nav.yml` file: list `Intro` first, then `*` to include all other pages automatically
+- Monitor the GitHub Actions workflow runs and report any failures via https://github.com/tom-mcmillan/research/actions
 - Make all styling decisions based on Material theme defaults, except header background override via CSS
 - Keep PRs small and auditable (clear commit messages, minimal blast radius)
 
