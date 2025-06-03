@@ -13,7 +13,7 @@ Tom McMillan discussed their project "Sail," a terminal inspired by Betty Miller
 
 ---
 
-## Details
+## Summary Details
 
 ### Project Introduction and Client-Centered Case Theory
 Tom McMillan discussed a new project involving a terminal he is building. He was inspired by Betty Miller's work on client-centered case theory, which emphasizes the client's objectives, even if those include going to jail (00:00:00). Tom found this theory helpful for defining the purpose of user interaction within his terminal.
