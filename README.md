@@ -29,6 +29,30 @@ mkdocs serve
 ```
 
 Then open <http://127.0.0.1:8000> in your browser.
+
+
+## Bibliography Builder
+
+Pull items from your Zotero collection and generate a numbered, MLA-style
+bibliography in Markdown format by running the `build_bibliography.py` script.
+
+Ensure you have a top-level `.env` file with your Zotero credentials:
+```bash
+ZOTERO_API_KEY=<your Zotero API key>
+ZOTERO_USER_ID=<your numeric Zotero user ID>
+ZOTERO_COLLECTION_KEY=<your Zotero collection key>
+```
+
+Then run:
+```bash
+source .venv/bin/activate
+python3 scripts/build_bibliography.py
+```
+
+This will overwrite `docs/pedagogy/bibliography.md` with a numbered,
+MLA (9th edition) citation list, using Markdown italics for titles.
+```
+
 ## Continuous Deployment
 This site uses MkDocs Material and is automatically built and deployed to GitHub Pages via GitHub Actions whenever you push changes to the `main` branch.
 

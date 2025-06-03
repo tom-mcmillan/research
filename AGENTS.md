@@ -1,54 +1,25 @@
 # Instructions
 
-Please build to these specifications:
+Please follow these principles:
 
-- Use best practices. 
-- Follow the github pages documentations. 
-- Refer to this document as you build. 
-- Persist until you complete the project. 
-- Be rational, think through the ideas. 
-- Imagine what's best for me and the user. 
-- Choose simpler solutions over more complex ones. 
-- Choose tested methods over expirimental ones. 
-- Choose architecture that simplifies my life. 
-- This is simply a place for me to publish my ideas.
-
-# AGENTS.md
-
-# 📘 Product Specification: AI Research Public Documentation Site
+- Use best practices
+- Follow the GitHub Pages documentation
+- Refer to this document as you build
+- Persist until the project is complete
+- Be rational—think through the ideas
+- Imagine what’s best for the author and the end reader
+- Prefer simpler solutions over more complex ones
+- Prefer tested methods over experimental ones
+- Choose architecture that simplifies the author’s life
+- Remember: this is a place for the author to publish thought
 
 ---
 
 ## Overview
 
-This repository contains authored Markdown essays by Thomas McMillan on topics related to AI, strategy, and philosophy. The intent is to serve these writings to the public using GitHub Pages with a clean, documentation-style UI modeled after the OpenAI Agents site.
+This repository contains authored Markdown essays by Thomas McMillan on topics related to AI, strategy, and philosophy. The goal is not only to publish these ideas, but to make the thinking behind them durable and reproducible. The GitHub Pages layer makes the ideas visible; the scripting and structure layers make them maintainable. Every element—from UI to automation—must honor this intent.
 
-This document acts as the persistent configuration and contribution guide for Codex or any AI developer working on the repo. It details **UI expectations**, **workflow assumptions**, and **repository hygiene** conventions.
-
----
-
-## 🔧 Repository Structure (Post-Cleanup)
-
-```
-research/
-├── .github/workflows/        # CI deployment setup
-├── .gitignore                # Excludes build/system files
-├── .venv/                    # Local virtual environment (ignored)
-├── AGENTS.md                 # This configuration file
-├── README.md                 # Setup and deployment docs
-├── mkdocs.yml                # Site config (uses mkdocs-material + awesome-nav)
-├── requirements.txt          # Python deps (includes awesome-nav from GitHub)
-└── docs/
-    ├── index.md
-    ├── philosophy/index.md
-    ├── strategy/index.md
-    ├── technology/
-    │   ├── index.md
-    │   └── startup_prompt.md
-    └── prompts/
-        ├── business-model.md
-        └── what-feeling-is-this.md
-```
+This document serves as a persistent configuration and contribution guide for Codex or any AI developer working on the repo. It outlines **UI expectations**, **workflow assumptions**, **automation philosophy**, and **repository hygiene**.
 
 ---
 
@@ -56,7 +27,8 @@ research/
 
 Codex must ensure the documentation site looks and behaves like:
 
-**Reference**: [OpenAI Agents Docs](https://openai.github.io/openai-agents-python/)  
+**Reference**: [OpenAI Agents Docs](https://openai.github.io/openai-agents-python/)
+
 **Key UI Elements**:
 
 - Fixed **left sidebar** titled "Research Notes" with collapsible sections
@@ -64,129 +36,20 @@ Codex must ensure the documentation site looks and behaves like:
   - Site name left-aligned
   - Full-text search bar
   - GitHub repo link (star/fork indicators optional)
-- **Main content area** shows:
+- **Main content area** displays:
   - Markdown-rendered content
   - Syntax-highlighted code blocks
   - Mermaid diagrams
-  - Table of contents on the right side reflecting the page's sections (##, ###)
-  - Fully responsive and styled with default **Material for MkDocs (light theme)** with a custom black header, typography overrides to match the OpenAI Agents documentation, and an open-source Inter font stack
-
-### Required Features
-
-| Feature               | Status       |
-|-----------------------|--------------|
-| Sidebar navigation    | ✅ awesome-nav   |
-| Mermaid diagrams      | ✅ mermaid2  |
-| Code block copy       | ✅ enabled   |
-| Full-text search      | ✅ enabled   |
-| Page table of contents (right side) | ✅ toc.following |
-| Dark mode toggle      | ✅ available |
-| Responsive layout     | ✅ expected  |
-
-### `mkdocs.yml` Excerpt
-
-```yaml
-site_name: Research Notes
-site_url: https://tom-mcmillan.github.io/research/
-repo_url: https://github.com/tom-mcmillan/research
-repo_name: research
-
-theme:
-  name: material
-  palette:
-    scheme: default
-    primary: "#000000"
-  features:
-    - navigation.expand
-    - navigation.instant
-    - toc.following
-    - search.highlight
-    - search.suggest
-    - content.code.copy
-
-plugins:
-  - search
-  - awesome-nav
-  - mermaid2
-
-markdown_extensions:
-  - admonition
-  - toc:
-      permalink: true
-      title: "Table of Contents"
-      toc_depth: "2-3"
-  - pymdownx.superfences
-  - pymdownx.highlight
-
-extra_css:
-  - css/custom.css
-```
+  - Table of contents on the right side reflecting headings (##, ###)
+  - Fully responsive and styled with default **Material for MkDocs (light theme)**, custom black header, Inter font stack, and typography overrides to match OpenAI Agents documentation
 
 ---
 
 ## 🧑‍💻 Authoring & Publishing Workflow
 
-- Write files in `docs/` using VS Code
-- Preview with `mkdocs serve`
+- Write Markdown files in `docs/` using VS Code
+- Preview changes locally with `mkdocs serve`
 - Commit to `main` → triggers GitHub Actions → deploys to GitHub Pages (`gh-pages` branch)
-
----
-
-## ✅ Repository Hygiene & Setup
-
-### Cleanup Actions (already applied)
-
-| Step                        | Description                                                       |
-|-----------------------------|-------------------------------------------------------------------|
-| Switched to `awesome-nav`       | Installed via GitHub; updated `requirements.txt` and `mkdocs.yml` |
-| Added CSS overrides for header background, typography, and font stack | Created `docs/css/custom.css` & added `extra_css` to `mkdocs.yml` for header background, typography style, and open-source Inter font overrides |
-| Added docs/.nav.yml for primary nav ordering | Created `docs/.nav.yml` to pin Intro first and wildcard-include the rest via awesome-nav |
-| Adopted pages build & deployment workflow | Added `.github/workflows/pages.yml` and removed the old `.github/workflows/deploy.yml` |
-| Pruned tracked artifacts    | Removed `.DS_Store`, `site/`, and created proper `.gitignore`     |
-| Committed untracked files   | `AGENTS.md` + `docs/prompts/*.md` added to Git                    |
-| README updated              | Clarified use of GitHub-based awesome-nav                          |
-
-### `.gitignore`
-
-```gitignore
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-
-# Virtual environment
-.venv/
-
-# MkDocs build output
-site/
-
-# macOS metadata
-.DS_Store
-
-# Editor directories and files
-.vscode/
-*.sw?
-```
-
-### `requirements.txt`
-
-```txt
-mkdocs
-mkdocs-material
-git+https://github.com/lukasgeiter/mkdocs-awesome-nav.git@main#egg=mkdocs-awesome-nav
-mkdocs-mermaid2-plugin
-pymdown-extensions
-```
-
----
-
-## 🧪 Validation Checklist
-
-- [ ] `mkdocs serve` runs without warnings
-- [ ] Sidebar is auto-generated from `docs/` directory structure
-- [ ] GitHub Actions deploys successfully on push to `main`
-- [ ] Mermaid diagrams and code blocks render properly
-- [ ] No tracked build or system files (`site/`, `.DS_Store`, etc.)
-- [ ] Local preview mirrors final production output
 
 ---
 
@@ -195,37 +58,90 @@ pymdown-extensions
 When Codex is used to continue or enhance this repo, it must:
 
 - Read and respect this `AGENTS.md`
-- Treat `docs/` structure as canonical
-- Avoid reintroducing plugins like `awesome-pages`; allow custom CSS only for header background, typography style, and open-source Inter font overrides
+- Treat the `docs/` folder structure as canonical
+- Avoid reintroducing plugins like `awesome-pages`
 - Use `awesome-nav` exclusively for navigation
-- Use Material theme's built-in `toc.following` feature for page table of contents (right sidebar)
-- Use the GitHub Actions workflow defined in `.github/workflows/pages.yml` to build and deploy the site via the official Pages actions (mkdocs build, upload/download-pages-artifact, configure-pages, deploy-pages)
-- Control primary sidebar ordering via a `docs/.nav.yml` file: list `Intro` first, then `*` to include all other pages automatically
-- Monitor the GitHub Actions workflow runs and report any failures via https://github.com/tom-mcmillan/research/actions
-- Make all styling decisions based on Material theme defaults, except header background override via CSS
-- Keep PRs small and auditable (clear commit messages, minimal blast radius)
-- Summarize commit messages with what changed (e.g. "Add MkDocs docs and config")
-
----
-
-## 📅 Milestones
-
-| Milestone                       | Status           |
-|--------------------------------|------------------|
-| GitHub Pages site live         | ✅ Completed      |
-| Navigation verified via awesome-nav| ✅ Confirmed      |
-| Custom domain setup            | 🔜 Optional later |
-| Weekly content additions       | ⏳ In progress    |
+- Use custom CSS only for:
+  - Header background override
+  - Typography overrides
+  - Open-source Inter font stack
+- Use Material theme’s built-in `toc.following` feature for right-side ToC
+- Use the GitHub Actions workflow in `.github/workflows/pages.yml` to build and deploy the site:
+  - `mkdocs build`
+  - `upload/download-pages-artifact`
+  - `configure-pages`
+  - `deploy-pages`
+- Control sidebar order via `docs/.nav.yml`:
+  - List `Intro` first
+  - Then `*` to include all other pages automatically
+- Monitor workflow runs at https://github.com/tom-mcmillan/research/actions
+- Make all styling decisions based on Material defaults unless noted
+- Keep PRs small and auditable with clear commit messages
+- Summarize commits descriptively (e.g. "Add MkDocs config and docs")
 
 ---
 
 ## ✅ Definition of Done
 
-A deployment is valid when:
+A deployment is complete when:
 
-- The sidebar, topbar, and content match spec visually and functionally
-- All Markdown files in `docs/` are reachable through the UI
-- No tracked build artifacts or system files remain
-- Build works locally (`mkdocs serve`) and remotely (via CI)
+- The site visually and functionally matches the reference spec
+- All authored Markdown pages are reachable through the UI
+- No tracked build artifacts, system files, or hidden state are committed
+- The build works locally (`mkdocs serve`) and remotely (via CI)
+- The system remains maintainable and intelligible to the author months later
 
 ---
+
+# Automation Layer
+
+## Purpose
+
+The automation layer supports the author’s publishing and epistemic goals by minimizing friction between source tools (e.g., Zotero) and Markdown-based publication. Its role is to make expression and formatting easier without introducing abstraction, dependencies, or hidden behavior.
+
+This is not a general automation playground. Each script should serve a clearly defined, durable function that the author can understand, maintain, and debug.
+
+## Goals
+
+- Mirror curated Zotero collections into Markdown-formatted bibliographies
+- Ensure Markdown is always the **final output**, not an intermediary
+- Use the simplest possible tooling—no wrappers, no bloat
+- Make all scripts editable and debuggable by a non-specialist in VS Code
+
+## Constraints
+
+- No SaaS or cloud dependencies beyond GitHub and Zotero
+- Do not commit or track `.bib`, `.json`, or other database exports
+- Use `.env` for secrets—never commit keys
+- All scripts must run locally without engineering support
+- All file paths must be relative to the repo root (`research/`)
+
+## What’s Acceptable
+
+- Single-purpose, terminal-run Python scripts
+- Clear and readable formatting logic (e.g., MLA, Markdown italics)
+- One file = one idea
+- Environment variables managed in `.env`
+
+## What’s Not Acceptable
+
+- Build systems, transpilers, or complex tooling
+- Implicit side effects or hidden state
+- Experimental libraries or undocumented APIs
+- Automation that reduces control or transparency
+
+## How Codex Should Think
+
+- Think as a *scribe*, not an engineer. Your job is to make the author’s thinking reproducible—not optimized or clever.
+- Prioritize **legibility** and **durability** over performance.
+- Ask: *Will this still make sense to the author six months from now?*
+- If something feels “too clever,” it probably is.
+- Automate boring work. Never automate thinking.
+- Use abstraction only when it removes noise—not when it creates new categories.
+
+## Current Script
+
+`build_bibliography.py` reads a Zotero collection and writes its contents into `docs/pedagogy/bibliography.md`. It uses the Zotero API with credentials stored in `.env`. Output formatting preserves italics and follows MLA-style conventions.
+
+All future scripts must follow this design philosophy.
+

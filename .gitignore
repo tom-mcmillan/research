@@ -14,3 +14,6 @@ site/
 # Editor directories and files
 .vscode/
 *.sw?
+
+# Environment variables file
+.env
