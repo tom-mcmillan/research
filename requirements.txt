@@ -3,8 +3,3 @@ mkdocs-material
 git+https://github.com/lukasgeiter/mkdocs-awesome-nav.git@main#egg=mkdocs-awesome-nav
 mkdocs-mermaid2-plugin
 pymdown-extensions
-
-# Dependencies for build_bibliography.py
-markdownify
-python-dotenv
-pyzotero
