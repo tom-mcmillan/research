@@ -1,9 +1,0 @@
-# Reality Testing
-
-The concept of “reality-testing” has been the centerpiece of traditional psychological and psychoanalytic understandings of the nature and function of fantasy and the imagination. In the customary view, perceptions of the world around us, including other people, are influenced both by the way things really are and by our imaginative elaborations of the ways things are and our fantasies of how we would like things to be. Imagination and fantasy are potential contaminants, because they threaten to obscure our direct perception of how things really are. They are fine in their own domain, clearly identified as illusions, but the labels need to be kept very clear. Sandcastles are not habitable. 
-
-But recent theorists have begun to challenge the neat separation between our perceptions of how things really are and our fantasy-driven imagination. It may be, it is now believed, that we can only find a satisfying habitable dwelling by first identifying it as a favorite sandcastle. 
-
-Consider this startling definition of reality testing offered by Hans Loewald, the visionary American psychoanalyst: “Reality testing is far more than an intellectual or cognitive function. It may be understood more comprehensively as the experiential testing of fantasy—its potential and suitability for actualization—and the testing of actuality—its potential for encompassing it in, and penetrating it with, one’s fantasy life. We deal with the task of a reciprocal transposition.
-
-Here reality is tested not to eliminate from it unrealistic infantile fantasies, but to probe it for sites in which one can locate and cultivate fantasies. For Loewald, the rational, objective perspective we normally consider “reality” is useful for many activities we require for adaptive living. But as a steady fare, objective reality becomes a devitalized shadow of a fuller experience that is made possible when the actual can be animated and brought alive through fantasy.
