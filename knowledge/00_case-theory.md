@@ -1,6 +1,10 @@
-# Case Theory
+# CASE THEORY
 
-## Traditional definitions
+-----------------------------------------------
+# Binny Miller Client-Centered Case Theory
+-----------------------------------------------
+
+## Traditional definitions of case theory
 
 - Case theory - or theory of the case - can be seen as an explanatory statement linking the "case" to the client's experience of the world. It serves as a lens for shaping reality, in light of the law, to explain the facts, relationships, and circumstances of the client and other parties in the way that can best achieve the client's goals. The relevant reality combines the perspectives of the lawyer and the client with an eye toward the ultimate audience - the trier of fact.
 
@@ -45,8 +49,19 @@ As Ludwig put it: "The people who come to see us bring us their stories. They ho
 
 - In this dialogue, the client is truly a teacher and a contributor, not simply a recipient of the lawyer's noblesse oblige, as in the prototypical client-centered discussion about nonlegal consequences. The client engages deeply in the process of developing case theory because of what he knows and what the lawyer does not. The client might educate us in ways we cannot even imagine. Once we cede control over case theory to our clients, we must remember that as lawyers we may not be in the best position to understand their choices. We want desperately to ascribe a "why" to their words, yet our understanding is limited by our own frame of reference. We perceive legal strategy as the reason for their actions and only reluctantly consider other possible strategic goals. We forget that the legal consequences of their actions may be entirely accidental. They may have intended something entirely different.
 
+------------------------------------------
+# Prompts
+------------------------------------------
 
+Understand the frame—let's adopt the lawyer/client metaphor and case theory framework.
 
+Given this:
+
+You're the client: Your goals, experiences, insights, and the world you're navigating must shape our entire interaction.
+
+I'm the lawyer: My job is to help clarify your perspective, draw out relevant details, and provide strategic counsel in alignment with your goals.
+
+Rather than rushing into solutions, let's first clearly define your "case theory":
 
 
 

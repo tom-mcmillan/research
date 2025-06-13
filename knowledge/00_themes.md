@@ -1,6 +1,7 @@
+-----------------------------------------------------------------------
 # Themes of writing; what to write about
+-----------------------------------------------------------------------
 
-----------------------------------------------------------------------
 ## Intro
 
 1. Assumptions
@@ -8,7 +9,6 @@
 3. Diffulties
 4. About me, my perspective
 
-----------------------------------------------------------------------
 ## Philosophy
 
 1. **Ontology -- Relationship between human and computer.** 
@@ -35,7 +35,6 @@
 7. **Who are we in all this**. 
 Our human and creative spirit. 
 
-----------------------------------------------------------------------
 ## Technology
 
 1. **First principles**
@@ -58,7 +57,6 @@ What are good prompts. Where do they occur in history -- constitution, etc. What
 4. **Against Method, the limits of methods**
 Paul feyerabend. The limitations of methods. Given these limitations, then what do ew do about it. 
 
-----------------------------------------------------------------------
 ## Strategy
 
 1. **AI knowledge process**
@@ -82,11 +80,15 @@ Russ's PDF about industry trends
 5. **Michael T. Porter strategy**
 applied to AI and companies or people wishing to adopt it. 
 
-----------------------------------------------------------------------
-## Pedagogy
 
-1. **How to lean about this.** 
-Why learn about it. Why i came to learn about it. My learning journey? Avoiding blabber about "AI for _____"
+-----------------------------------------------------------------------
+## Themes across notes
+-----------------------------------------------------------------------
 
-2. **Bibliography**
-Reading list, with subject headers.
+| Thread                                | Key ideas I see so far                                                                                                                              | Representative excerpts                                                                             |
+| ------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| **Major themes across your notes**    | *Knowledge as currency / artifact*; *orchestration vs automation*; *individual–collective paradox*                                                  | “Knowledge isn’t just information … each artifact gets a unique ID and becomes tradeable.”          |
+| **Intersubjectivity & relational AI** | AI ↔ human dialogue as a *genuine relationship* that changes both parties                                                                           | “We are not simply using AI as a tool; we are entering into a form of relationship with it.”        |
+| **The ‘familiar alien‑ness’ paradox** | LLMs feel conversationally human yet remain fundamentally alien in origin                                                                           | “We relate to them as if they’re like us, but we know they’re fundamentally not.”                   |
+| **Control vs. relationship tension**  | You need useful, orchestratable systems *and* autonomous partners; a conductor metaphor helps inhabit (not resolve) the tension                     | “True relationship requires relinquishing control, but useful systems require maintaining control.” |
+| **Site / documentation plan**         | Five‑category markdown site (Intro, Philosophy, Technology, Strategy, …) hosted on GitHub Pages; Claude outlined a draft mapping of existing files  | List of files mapped into each category.                                                            |
