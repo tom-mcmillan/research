@@ -1,9 +1,14 @@
 title: Research Notes
 collapse: false
 order:
-  - index.md
+  - _main-theme-1.md
+  - _main-theme-2.md
+  - _themes.md
+  - Into.md
+  - Intro.md
   - About-me.md
+  - the-paradox-of-knowledge.md
   - philosophy
   - technology
   - strategy
-  - prompts
+  - references
