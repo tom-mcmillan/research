@@ -1,14 +1,9 @@
-title: Research Notes
+title: Tom McMillan Field Notes
 collapse: false
 order:
-  - _main-theme-1.md
-  - _main-theme-2.md
-  - _themes.md
-  - Into.md
-  - Intro.md
-  - About-me.md
-  - the-paradox-of-knowledge.md
-  - philosophy
-  - technology
-  - strategy
-  - references
+  - intro.md
+  - about-me.md
+  - the-LLM-paradox.md
+  - intersubjectivity-with-computers.md
+  - questions-of-style.md
+  - what-to-compute.md

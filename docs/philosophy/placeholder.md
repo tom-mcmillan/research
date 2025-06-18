@@ -1,3 +1,0 @@
-# Philosophy
-
-Overview coming soon.

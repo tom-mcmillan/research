@@ -1,3 +1,0 @@
-# Technology
-
-Overview coming soon.

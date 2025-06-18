@@ -1,3 +1,0 @@
-# Strategy
-
-Overview coming soon.
