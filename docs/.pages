@@ -1,7 +1,7 @@
 title: Tom McMillan Field Notes
 collapse: false
 order:
-  - intro.md
+  - index.md
   - about-me.md
   - the-LLM-paradox.md
   - intersubjectivity-with-computers.md
