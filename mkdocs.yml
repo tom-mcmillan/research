@@ -16,8 +16,6 @@ theme:
     - search.suggest
     - content.code.copy
 
-  logo: images/logo.svg
-
 
 plugins:
   - search
