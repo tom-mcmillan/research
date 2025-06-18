@@ -1,4 +1,4 @@
-# Questions of style
+# Style
 
 Good Socratic computing doesn’t rely solely on well-crafted prompts—it relies on the ability to engage in a flexible dialogue, one that encourages exploration and creativity.
 

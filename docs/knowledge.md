@@ -1,4 +1,4 @@
-# The Knowledge paradox
+# Knowledge
 
 We can predict the behavior of something we do not, and perhaps cannot, understand. And it can predict ours. 
 

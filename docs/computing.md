@@ -1,4 +1,4 @@
-# What to compute
+# Computing
 
 LLMs give us all a new ‘unit of cultural production’ that goes beyond the book, the music recording, the poem, the algorithm, the program, etc.
 

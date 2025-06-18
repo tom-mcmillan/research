@@ -1,9 +1,8 @@
-title: Tom McMillan Field Notes
+title: Research Notes
 collapse: false
 order:
   - index.md
-  - about-me.md
-  - the-LLM-paradox.md
-  - intersubjectivity-with-computers.md
-  - questions-of-style.md
-  - what-to-compute.md
+  - knowledge.md
+  - intersubjectivity.md
+  - style.md
+  - computing.md
