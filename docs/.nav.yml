@@ -1,3 +1,6 @@
 nav:
   - Intro: index.md
-  - '*'
+  - Knowledge: knowledge.md
+  - Intersubjectivity: intersubjectivity.md
+  - Style: style.md
+  - Computing: computing.md
