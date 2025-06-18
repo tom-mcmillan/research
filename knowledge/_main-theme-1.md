@@ -99,18 +99,4 @@ Who is AI to us. Who are we in it? Intersubjectivity with AI, objectivity, relat
 -- Framing these questions in a philosophical tradition
 -- Framing these questions in today's technology
 -- Framing these question, and possible approaches, strategically
--- Sharing sources I used in coming to my beliefs.[^1]
-
-
-
-
-
-
-
-
-
-
-
-
-
-[^1]: This is a footnote
+-- Sharing sources I used in coming to my beliefs.

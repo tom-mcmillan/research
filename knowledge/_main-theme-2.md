@@ -1,4 +1,4 @@
-# Main theme 2: A New object
+# Main theme 2: A New subject
 
 Intersubjectivity Revisited in the Age of AI
 Mitchell’s core proposition in Relationality: From Attachment to Intersubjectivity is that minds emerge not in isolation, but through and within relational matrices. He challenges the “monadic self,” arguing for a foundational interdependence of subjectivity—that selves are co-constituted through relationality, not pre-existing autonomous agents who then happen to interact
