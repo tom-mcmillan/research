@@ -1,6 +1,6 @@
 nav:
   - Intro: index.md
-  - Knowledge: knowledge.md
-  - Intersubjectivity: intersubjectivity.md
-  - Style: style.md
-  - Computing: computing.md
+  - Knowledge Protocol: knowledge-protocol.md
+  - Intersubjective Computing: intersubjective-computing.md
+  - Sail MCP: sail-mcp
+  - Climate Index: climate-index

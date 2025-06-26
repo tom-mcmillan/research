@@ -1,4 +1,4 @@
-# Intersubjectivity with Computers
+# Intersubjective Computing
 
 > "...[the] mind is a fundamentally temporal phenomenon, constructed according to varying organizational principles at different points in time." 
 > -- <cite>([Mitchell, 2014, p. 46-48](zotero://select/library/items/N4H7F73L))</cite>

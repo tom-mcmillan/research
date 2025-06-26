@@ -2,7 +2,7 @@ title: Research
 collapse: false
 order:
   - index.md
-  - knowledge.md
-  - intersubjectivity.md
-  - style.md
-  - computing.md
+  - knowledge-protocol.md
+  - intersubjective-computing.md
+  - sail-mcp
+  - cclimate-index
