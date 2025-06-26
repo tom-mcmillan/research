@@ -2,18 +2,6 @@
 
 This document provides detailed information about Sail's Model Context Protocol (MCP) integration, including implementation details, protocol compliance, and integration examples.
 
-## Table of Contents
-
-- [Overview](#overview)
-- [MCP Protocol Implementation](#mcp-protocol-implementation)
-- [Architecture](#architecture)
-- [Transport Layer](#transport-layer)
-- [Server Implementation](#server-implementation)
-- [Client Integration](#client-integration)
-- [AI Assistant Integration](#ai-assistant-integration)
-- [Security & Authentication](#security--authentication)
-- [Performance & Scaling](#performance--scaling)
-- [Troubleshooting](#troubleshooting)
 
 ## Overview
 
@@ -791,8 +779,3 @@ Access the built-in monitoring dashboard at `/admin/mcp-monitor` to view:
 5. **Documentation**: Keep MCP integration docs updated
 
 ---
-
-For additional support or questions about MCP integration, please:
-- Check the [troubleshooting guide](TROUBLESHOOTING.md)
-- Open an issue on [GitHub](https://github.com/tom-mcmillan/sail/issues)
-- Contact support at mcp-support@sailmcp.com
