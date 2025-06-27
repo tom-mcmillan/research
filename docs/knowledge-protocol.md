@@ -6,10 +6,7 @@ It’s not that we don’t trust them or can’t think about them; it’s that o
 
 ```mermaid
 sequenceDiagram
-    user->>LLM: speak
-    LLM->>store: create abstraction
-    store->>exchange: expose
-
-
-
+    Alice->>John: Hello John, how are you?
+    John-->>Alice: Great!
+    Alice-)John: See you later!
 ```

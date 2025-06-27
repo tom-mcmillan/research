@@ -20,12 +20,6 @@ Sail MCP helps you interact with knowledge stores (libraries, notes, code) in re
 - The flexibility to switch between LLM providers and vendors
 - Best practices for securing your data within your infrastructure
 
-```mermaid
-
-flowchart td
-
-
-```
 
 Sail MCP is of a set of servers (containing knowledge) and protocols (defining the exchange) that enable you to share your personal knowledge sources (local files, Google Drive, GitHub repositories) with AI assistants like Claude and ChatGPT through the Model Context Protocol (MCP). 
 It implements a bidirectional knowledge flow:
