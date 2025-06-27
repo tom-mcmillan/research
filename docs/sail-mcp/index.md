@@ -1,4 +1,4 @@
-# Sail MCP
+# Intro
 
 I built [Sail MCP](https://sailmcp.com) to help me save the knowledge i created in my chatGPT sessions, and share that knowledge with others. I hope it's of some use to you. 
 

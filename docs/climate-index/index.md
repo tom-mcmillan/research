@@ -1,4 +1,4 @@
-# Climate Index AI
+# Intro
 
 Climate Index is a Desktop Extension that gives Claude and ChatGPT access to research on climate change's impact on financial markets. It enables users to search and analyze academic and industry research on how different markets do and don't price the risk and effects of climate change effectively.
 
